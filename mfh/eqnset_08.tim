@@ -1,0 +1,36 @@
+hp93000,timing,0.1
+EQSP TIM,EQN,#9000000562
+EQNSET 8 Eq_scan_wsg_x2
+
+SPECS
+
+#SPECNAME           UNIT
+scan_per            [ns]
+scan_clk_rdrv           []
+scan_clk_dc             []
+scan_clk_rstr           []
+scan_default_rdrv       []
+scan_default_rstr       []
+scan_ofs                [] 
+
+TIMINGSET 1 "scan_wsg:ws_scan_x2"
+
+period = scan_per
+
+
+PINS ALLPINS
+
+d1=scan_default_rdrv* scan_per 
+d2=(scan_default_rdrv+scan_clk_dc)* scan_per 
+d3=(2*scan_default_rdrv)* scan_per 
+d4=((2*scan_default_rdrv)+scan_clk_dc)* scan_per  
+r1=scan_default_rstr* scan_per
+r2=(scan_default_rstr+scan_clk_dc)*  scan_per
+
+
+
+@
+
+
+
+NOOP "7.6.2",,,

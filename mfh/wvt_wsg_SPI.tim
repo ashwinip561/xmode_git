@@ -1,0 +1,58 @@
+hp93000,timing,0.1
+EQSP TIM,WVT,#9000000722
+WAVETBL wsg_SPI
+DEFINES SPI_PORT
+
+PINS SPI_DOUT SPI_CSN_UART2_RX SPI_DIN
+
+0   "d1:F00 r1:X"   0
+1   "d1:F10 r1:X"   1
+2   "d1:F0Z r1:X"   Z
+3   "d1:F0Z r1:H"   H
+4   "d1:F0Z r1:L"   L
+5   "d1:F0Z r1:M"   M
+6   "d1:F0Z r1:X"   X
+7   "d1:F0Z r1:C"   C
+brk "d1:N  "    #undefined
+
+
+STATEMAP
+
+#PhxSeq # StateChar xmode
+0   0   x1
+1   1   x1
+2   Z   x1
+3   H   x1
+4   L   x1
+5   M   x1
+6   X   x1
+7   C   x1
+
+PINS SPI_CLK_UART2_TX
+
+0	"d1:F00 d2:F0N r1:X"	0
+1	"d1:F10 d2:F0N r1:X"	1
+2	"d1:F0Z d2:F0N r1:X"	Z
+3	"d1:F0Z d2:F0N r1:H"	H
+4	"d1:F0Z d2:F0N r1:L"	L
+5	"d1:F0Z d2:F0N r1:M"	M
+6	"d1:F0Z d2:F0N r1:X"	X
+brk "d1:N  "	#undefined
+
+
+STATEMAP
+
+#PhxSeq # StateChar xmode
+0	0	x1
+1	1   x1
+2	Z	x1
+3	H	x1
+4	L   x1
+5	M	x1
+6	X	x1
+
+
+
+@
+
+NOOP "7.6.2",,,

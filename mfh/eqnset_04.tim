@@ -1,0 +1,30 @@
+hp93000,timing,0.1
+EQSP TIM,EQN,#9000000350
+EQNSET 4 Eq_wsg_xtal_32KHz
+
+DEFINES XTAL_32KHz
+
+SPECS
+
+#SPECNAME 			UNIT
+xtal_32KHz_per 			[ns]
+xtal_32KHz_default_rdrv	[]
+xtal_32KHz_dc				[]
+
+
+TIMINGSET 1 "xtal_32KHz_wsg:ws_xtal_32KHz"
+
+period = xtal_32KHz_per
+
+
+PINS XTAL_O_RTC XTAL_I_RTC
+
+d1= xtal_32KHz_default_rdrv* xtal_32KHz_per 
+d2=(xtal_32KHz_default_rdrv+xtal_32KHz_dc)*xtal_32KHz_per
+
+
+@
+
+
+
+NOOP "7.6.2",,,

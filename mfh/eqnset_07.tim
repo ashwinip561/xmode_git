@@ -1,0 +1,42 @@
+hp93000,timing,0.1
+EQSP TIM,EQN,#9000000486
+EQNSET 7 Eq_wsg_jtag
+
+DEFINES JTAG_PORT
+
+SPECS
+
+#SPECNAME 			UNIT
+jtag_per 			[ns]
+jtag_clk_rdrv		[]
+jtag_default_rdrv	[]
+jtag_clk_rstr		[]
+jtag_default_rstr	[]
+jtag_clk_dc			[]
+#jtag_default_dc	[]
+
+
+TIMINGSET 1 "jtag_wsg:ws_jtag"
+
+period = jtag_per
+
+
+PINS TCK_GPIO55
+
+d1= jtag_clk_rdrv* jtag_per 
+d2=(jtag_clk_rdrv+jtag_clk_dc)*jtag_per
+r1=jtag_clk_rstr* jtag_per
+
+
+PINS TRST_GPIO57 TMS_GPIO54 TDO_GPIO53 TDI_GPIO56
+
+d1=jtag_default_rdrv* jtag_per 
+r1=jtag_default_rstr* jtag_per
+
+
+
+@
+
+
+
+NOOP "7.6.2",,,

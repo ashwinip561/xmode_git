@@ -1,0 +1,52 @@
+hp93000,timing,0.1
+EQSP TIM,SPS,#9000001620
+SPECIFICATION "func_spec_level"
+{
+
+CHECK all
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+
+EQNSET 5 "Eq_wsg_main"
+WAVETBL "wsg_main_lvl"
+PORT MAIN_PORT
+SYNC
+{
+}
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+per              100                                                [ ns] #32MHz
+clk_rdrv         0.5                                                [   ] 
+default_rdrv     0                                                  [   ] 
+clk_rstr         0.6                                                [   ] 
+default_rstr     0.75                                               [   ] 
+clk_dc           0.5                                                [   ] 
+tmu_arm          0.9                                                [   ] 
+
+EQNSET 4 "Eq_wsg_xtal_32KHz"
+WAVETBL "wsg_XTAL_32KHz"
+PORT XTAL_32KHz
+SYNC
+{
+}
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+xtal_32KHz_per   25000                                              [ ns] #40 kHz
+xtal_32KHz_default_rdrv 0                                                  [   ] 
+xtal_32KHz_dc    0.5                                                [   ] 
+
+EQNSET 3 "Eq_wsg_xtal_32MHz"
+WAVETBL "wsg_XTAL_32MHz"
+PORT XTAL_32MHz
+SYNC
+{
+}
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+xtal_32MHz_per   31.25                                              [ ns] #32MHz
+xtal_32MHz_default_rdrv 0                                                  [   ] 
+xtal_32MHz_dc    0.5                                                [   ] 
+}
+@
+
+NOOP "7.6.2",,,

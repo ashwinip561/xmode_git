@@ -1,0 +1,42 @@
+hp93000,timing,0.1
+EQSP TIM,EQN,#9000000460
+EQNSET 6 Eq_wsg_spi
+
+DEFINES SPI_PORT
+
+SPECS
+
+#SPECNAME 			UNIT
+spi_per 			[ns]
+spi_clk_rdrv		[]
+spi_default_rdrv	[]
+spi_clk_rstr		[]
+spi_default_rstr		[]
+spi_clk_dc			[]
+#spi_default_dc		[]
+
+
+TIMINGSET 1 "spi_wsg:ws_spi"
+
+period = spi_per
+
+
+PINS SPI_CLK_UART2_TX
+
+d1= spi_clk_rdrv* spi_per 
+d2=(spi_clk_rdrv+spi_clk_dc)*spi_per
+r1=spi_clk_rstr* spi_per
+
+
+PINS SPI_DOUT SPI_CSN_UART2_RX SPI_DIN
+
+d1=spi_default_rdrv* spi_per 
+r1=spi_default_rstr* spi_per
+
+
+
+@
+
+
+
+NOOP "7.6.2",,,

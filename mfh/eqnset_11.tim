@@ -1,0 +1,38 @@
+hp93000,timing,0.1
+EQSP TIM,EQN,#9000000589
+EQNSET 11 Eq9_scan_wsg
+DEFINES MAIN_PORT
+
+SPECS
+
+#SPECNAME           UNIT
+scan_per            [ns]
+scan_clk_rdrv           []
+scan_clk_dc             []
+scan_clk_rstr           []
+scan_default_rdrv       []
+scan_default_rstr       []
+
+
+TIMINGSET 1 "scan_wsg:ws_scan"
+
+period = scan_per
+
+
+PINS ALL_WO_XTAL  -(  TCK_GPIO55  COM2_GPIO9 COM3_GPIO10 ) # except CLK pins
+
+d1=scan_default_rdrv* scan_per 
+r1=scan_default_rstr* scan_per
+
+
+PINS  TCK_GPIO55  COM2_GPIO9 COM3_GPIO10  # CLK pins
+
+d1=scan_clk_rdrv* scan_per 
+d2=(scan_clk_rdrv+scan_clk_dc)* scan_per #+80
+r1=scan_clk_rstr* scan_per
+
+@
+
+
+
+NOOP "7.6.2",,,

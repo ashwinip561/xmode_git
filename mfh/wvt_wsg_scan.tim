@@ -1,0 +1,56 @@
+hp93000,timing,0.1
+EQSP TIM,WVT,#9000000745
+WAVETBL wsg_scan
+
+PINS ALLPINS  -(  TCK_GPIO55  COM2_GPIO9 COM3_GPIO10 ) # except CLK pins
+
+0   "d1:F00 r1:X"	 0
+1   "d1:F10 r1:X"	 1
+2   "d1:F0Z r1:X"	 Z
+3   "d1:F0Z r1:H"	 H
+4   "d1:F0Z r1:L"	 L
+5   "d1:F0Z r1:X"	 X
+6   "d1:F0Z r1:X"	 T
+brk "d1:N  "    #undefined
+ 
+ 
+STATEMAP
+ 
+#PhxSeq # StateChar xmode
+0   0	x1
+1   1	x1
+2   Z	x1
+3   H	x1
+4   L	x1
+5   X	x1
+6   T	x1
+
+
+PINS TCK_GPIO55  COM2_GPIO9 COM3_GPIO10  # CLK pins
+
+0   "d1:F00 r1:X"	 0
+1   "d1:F10 r1:X"	 1
+2   "d1:F0Z r1:X"	 Z
+3   "d1:F0Z r1:H"	 H
+4   "d1:F0Z r1:L"	 L
+5   "d1:F0Z r1:X"	 X
+6   "d1:F0Z r1:X"	 T
+7   "d1:F10 d2:F0N r1:X"    P
+brk "d1:N  "    #undefined
+ 
+ 
+STATEMAP
+ 
+#PhxSeq # StateChar xmode
+0   0	x1
+1   1	x1
+2   Z	x1
+3   H	x1
+4   L	x1
+5   X	x1
+6   T	x1
+7   P	x1
+
+@
+
+NOOP "7.6.2",,,

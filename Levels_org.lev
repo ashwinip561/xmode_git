@@ -1,0 +1,1972 @@
+hp93000,level,0.1
+PSLV 1,0,0.2,HIZ_R,0,(DPS_VBOOST,DPS_VBAT_RTC,DPS_VBAT,DPS_VANA,DPS_AVD,DPS_DVDD_LP,DPS_VDIG,DPS_PVDD,DPS_VCC_ANA,DPS_VDD_ANALOG,DPS_DVD)
+PSLR 1,4,1,ON,NORM,(DPS_VBOOST)
+PSLR 1,3.7,1,ON,NORM,(DPS_VBAT_RTC,DPS_VBAT,DPS_VANA,DPS_AVD)
+PSLR 1,2.25,1,ON,NORM,(DPS_DVDD_LP)
+PSLR 1,3.7,1,ON,NORM,(DPS_VDIG,DPS_PVDD,DPS_VCC_ANA,DPS_VDD_ANALOG)
+PSLR 1,2.25,1,ON,NORM,(DPS_DVD)
+PSFI 1,OFF,OFF,(DPS_VBOOST,DPS_VBAT_RTC,DPS_VBAT,DPS_VANA,DPS_AVD,DPS_DVDD_LP,DPS_VDIG,DPS_PVDD,DPS_VCC_ANA,DPS_VDD_ANALOG,DPS_DVD)
+DRLV 1,300,2500,(RF_RX_P,RF_RX_N,RF_TX,BBST_SW,VBOOST1,VBOOST2,VSCAP_CHG,VSCAP1,VSCAP2,VREG_RXTX,VREG_PA,VREG_PLL,EXLVD,VBAT_SW,VSCAP3)
+DRLV 1,2250,2500,(VSCAP)
+DRLV 1,300,2500,(VSCAP_ANA,RBIAS,TEST_ANA,LNA_EN,SEG9_GPIO20,SEG15_GPIO26_DTST0,SEG21_GPIO32_DTST6,SEG27_GPIO38,PA_EN,LNA_HGM,COM3_GPIO10,SEG4_GPIO15,SEG10_GPIO21,SEG16_GPIO27_DTST1,SEG22_GPIO33_DTST7,SEG28_GPIO39,SEG33_GPIO44,SEG38_GPIO49,VDIG1,XTAL_I_RTC,XTAL_O_RTC,COM0_GPIO7,COM4_SEG0_GPIO11,SEG5_GPIO16,SEG11_GPIO22,SEG17_GPIO28_DTST2,SEG23_GPIO34,SEG29_GPIO40,SEG34_GPIO45,SEG39_GPIO50,CAPL,CAPH,XIN,COM1_GPIO8,COM5_SEG1_GPIO12,SEG6_GPIO17,SEG12_GPIO23,SEG18_GPIO29_DTST3,SEG24_GPIO35,SEG30_GPIO41,SEG35_GPIO46,SEG40_GPIO51,VL1,XOUT)
+DRLV 1,2250,2500,(DVDD_LP)
+DRLV 1,300,2500,(COM2_GPIO9,COM6_SEG2_GPIO13,SEG7_GPIO18,SEG13_GPIO24,SEG19_GPIO30_DTST4,SEG25_GPIO36,SEG31_GPIO42,SEG36_GPIO47,SEG41_GPIO52,VL2,ANT,TAMPER1,COM7_SEG3_GPIO14,SEG8_GPIO19,SEG14_GPIO25,SEG20_GPIO31_DTST5,SEG26_GPIO37,SEG32_GPIO43,SEG37_GPIO48,VL4,VL3,TAMPER2,UART0_TX_GPIO59,UART1_TX,SPI_DOUT,TDO_GPIO53,GPIO67,RESET_N,AIN0_GPIO3,V2P1,AON3,AON1,UART0_RX_GPIO58,UART1_RX,SPI_DIN,TMS_GPIO54,TRST_GPIO57,TESTMODE,AIN1_GPIO4,ATST0_GPIO0)
+DRLV 1,2250,2500,(PVDD)
+DRLV 1,300,2500,(AONIRQ,AON2,AON0,RTCOUT_GPIO65,GPIO66,SPI_CSN_UART2_RX,TDI_GPIO56,I2C0_SDA_GPIO63,I2C1_SDA_GPIO61,AIN2_GPIO5,ATST1_GPIO1,DVD,GPIO64,SPI_CLK_UART2_TX,TCK_GPIO55,I2C0_SCL_GPIO62,I2C1_SCL_GPIO60,AIN3_GPIO6,ATST2_GPIO2,ATST2_GPIO2_1,ATST2_GPIO2_2,DVD1,DVD2,VREFP,VDDA,IP3,IN3,VP3,VN3,TP,IP1,IN1,VP1,VN1,IP2,IN2,VP2,VN2,MCE_Trigger_AWG,MCE_Trigger_DIG,TN)
+DRLV 1,2250,2500,(MCE_Trigger_AWG_S2,TRIG_S1,TRIG_S2,TRIG_S3,TRIG_S4,TRIG_FE1,TRIG_FE2)
+RCLV 1,1550,1650,(RF_RX_P,RF_RX_N,RF_TX,BBST_SW,VBOOST1,VBOOST2,VSCAP_CHG,VSCAP1,VSCAP2,VREG_RXTX,VREG_PA,VREG_PLL,EXLVD,VBAT_SW,VSCAP3)
+RCLV 1,2250,2500,(VSCAP)
+RCLV 1,1550,1650,(VSCAP_ANA,RBIAS,TEST_ANA,LNA_EN,SEG9_GPIO20,SEG15_GPIO26_DTST0,SEG21_GPIO32_DTST6,SEG27_GPIO38,PA_EN,LNA_HGM,COM3_GPIO10,SEG4_GPIO15,SEG10_GPIO21,SEG16_GPIO27_DTST1,SEG22_GPIO33_DTST7,SEG28_GPIO39,SEG33_GPIO44,SEG38_GPIO49,VDIG1,XTAL_I_RTC,XTAL_O_RTC,COM0_GPIO7,COM4_SEG0_GPIO11,SEG5_GPIO16,SEG11_GPIO22,SEG17_GPIO28_DTST2,SEG23_GPIO34,SEG29_GPIO40,SEG34_GPIO45,SEG39_GPIO50,CAPL,CAPH,XIN,COM1_GPIO8,COM5_SEG1_GPIO12,SEG6_GPIO17,SEG12_GPIO23,SEG18_GPIO29_DTST3,SEG24_GPIO35,SEG30_GPIO41,SEG35_GPIO46,SEG40_GPIO51,VL1,XOUT)
+RCLV 1,2250,2500,(DVDD_LP)
+RCLV 1,1550,1650,(COM2_GPIO9,COM6_SEG2_GPIO13,SEG7_GPIO18,SEG13_GPIO24,SEG19_GPIO30_DTST4,SEG25_GPIO36,SEG31_GPIO42,SEG36_GPIO47,SEG41_GPIO52,VL2,ANT,TAMPER1,COM7_SEG3_GPIO14,SEG8_GPIO19,SEG14_GPIO25,SEG20_GPIO31_DTST5,SEG26_GPIO37,SEG32_GPIO43,SEG37_GPIO48,VL4,VL3,TAMPER2,UART0_TX_GPIO59,UART1_TX,SPI_DOUT,TDO_GPIO53,GPIO67,RESET_N,AIN0_GPIO3,V2P1,AON3,AON1,UART0_RX_GPIO58,UART1_RX,SPI_DIN,TMS_GPIO54,TRST_GPIO57,TESTMODE,AIN1_GPIO4,ATST0_GPIO0)
+RCLV 1,2250,2500,(PVDD)
+RCLV 1,1550,1650,(AONIRQ,AON2,AON0,RTCOUT_GPIO65,GPIO66,SPI_CSN_UART2_RX,TDI_GPIO56,I2C0_SDA_GPIO63,I2C1_SDA_GPIO61,AIN2_GPIO5,ATST1_GPIO1,DVD,GPIO64,SPI_CLK_UART2_TX,TCK_GPIO55,I2C0_SCL_GPIO62,I2C1_SCL_GPIO60,AIN3_GPIO6,ATST2_GPIO2,ATST2_GPIO2_1,ATST2_GPIO2_2,DVD1,DVD2,VREFP,VDDA,IP3,IN3,VP3,VN3,TP,IP1,IN1,VP1,VN1,IP2,IN2,VP2,VN2,MCE_Trigger_AWG,MCE_Trigger_DIG,TN)
+RCLV 1,2250,2500,(MCE_Trigger_AWG_S2,TRIG_S1,TRIG_S2,TRIG_S3,TRIG_S4,TRIG_FE1,TRIG_FE2)
+TERM 1,OFF,,,,,,(RF_RX_P,RF_RX_N,RF_TX,BBST_SW,VBOOST1,VBOOST2,VSCAP_CHG,VSCAP1,VSCAP2,VREG_RXTX,VREG_PA,VREG_PLL,EXLVD,VBAT_SW,VSCAP3,VSCAP,VSCAP_ANA,RBIAS,TEST_ANA,LNA_EN,SEG9_GPIO20,SEG15_GPIO26_DTST0,SEG21_GPIO32_DTST6,SEG27_GPIO38,PA_EN,LNA_HGM,COM3_GPIO10,SEG4_GPIO15,SEG10_GPIO21,SEG16_GPIO27_DTST1,SEG22_GPIO33_DTST7,SEG28_GPIO39,SEG33_GPIO44,SEG38_GPIO49,VDIG1,XTAL_I_RTC,XTAL_O_RTC,COM0_GPIO7,COM4_SEG0_GPIO11,SEG5_GPIO16,SEG11_GPIO22,SEG17_GPIO28_DTST2,SEG23_GPIO34,SEG29_GPIO40,SEG34_GPIO45,SEG39_GPIO50,CAPL,CAPH,XIN,COM1_GPIO8,COM5_SEG1_GPIO12,SEG6_GPIO17,SEG12_GPIO23,SEG18_GPIO29_DTST3,SEG24_GPIO35,SEG30_GPIO41,SEG35_GPIO46,SEG40_GPIO51,VL1,XOUT,DVDD_LP,COM2_GPIO9,COM6_SEG2_GPIO13,SEG7_GPIO18,SEG13_GPIO24,SEG19_GPIO30_DTST4,SEG25_GPIO36,SEG31_GPIO42,SEG36_GPIO47,SEG41_GPIO52,VL2,ANT,TAMPER1,COM7_SEG3_GPIO14,SEG8_GPIO19,SEG14_GPIO25,SEG20_GPIO31_DTST5,SEG26_GPIO37,SEG32_GPIO43,SEG37_GPIO48,VL4,VL3,TAMPER2,UART0_TX_GPIO59,UART1_TX,SPI_DOUT,TDO_GPIO53,GPIO67,RESET_N,AIN0_GPIO3,V2P1,AON3,AON1,UART0_RX_GPIO58,UART1_RX,SPI_DIN,TMS_GPIO54,TRST_GPIO57,TESTMODE,AIN1_GPIO4,ATST0_GPIO0,PVDD,AONIRQ,AON2,AON0,RTCOUT_GPIO65,GPIO66,SPI_CSN_UART2_RX,TDI_GPIO56,I2C0_SDA_GPIO63,I2C1_SDA_GPIO61,AIN2_GPIO5,ATST1_GPIO1,DVD,GPIO64,SPI_CLK_UART2_TX,TCK_GPIO55,I2C0_SCL_GPIO62,I2C1_SCL_GPIO60,AIN3_GPIO6,ATST2_GPIO2,ATST2_GPIO2_1,ATST2_GPIO2_2,DVD1,DVD2,VREFP,VDDA,IP3,IN3,VP3,VN3,TP,IP1,IN1,VP1,VN1,IP2,IN2,VP2,VN2,MCE_Trigger_AWG,MCE_Trigger_DIG,TN,MCE_Trigger_AWG_S2,TRIG_S1,TRIG_S2,TRIG_S3,TRIG_S4,TRIG_FE1,TRIG_FE2)
+CLMP 1,OFF,-2000,7000,(RF_RX_P,RF_RX_N,RF_TX,BBST_SW,VBOOST1,VBOOST2,VSCAP_CHG,VSCAP1,VSCAP2,VREG_RXTX,VREG_PA,VREG_PLL,EXLVD,VBAT_SW,VSCAP3,VSCAP,VSCAP_ANA,RBIAS,TEST_ANA,LNA_EN,SEG9_GPIO20,SEG15_GPIO26_DTST0,SEG21_GPIO32_DTST6,SEG27_GPIO38,PA_EN,LNA_HGM,COM3_GPIO10,SEG4_GPIO15,SEG10_GPIO21,SEG16_GPIO27_DTST1,SEG22_GPIO33_DTST7,SEG28_GPIO39,SEG33_GPIO44,SEG38_GPIO49,VDIG1,XTAL_I_RTC,XTAL_O_RTC,COM0_GPIO7,COM4_SEG0_GPIO11,SEG5_GPIO16,SEG11_GPIO22,SEG17_GPIO28_DTST2,SEG23_GPIO34,SEG29_GPIO40,SEG34_GPIO45,SEG39_GPIO50,CAPL,CAPH,XIN,COM1_GPIO8,COM5_SEG1_GPIO12,SEG6_GPIO17,SEG12_GPIO23,SEG18_GPIO29_DTST3,SEG24_GPIO35,SEG30_GPIO41,SEG35_GPIO46,SEG40_GPIO51,VL1,XOUT,DVDD_LP,COM2_GPIO9,COM6_SEG2_GPIO13,SEG7_GPIO18,SEG13_GPIO24,SEG19_GPIO30_DTST4,SEG25_GPIO36,SEG31_GPIO42,SEG36_GPIO47,SEG41_GPIO52,VL2,ANT,TAMPER1,COM7_SEG3_GPIO14,SEG8_GPIO19,SEG14_GPIO25,SEG20_GPIO31_DTST5,SEG26_GPIO37,SEG32_GPIO43,SEG37_GPIO48,VL4,VL3,TAMPER2,UART0_TX_GPIO59,UART1_TX,SPI_DOUT,TDO_GPIO53,GPIO67,RESET_N,AIN0_GPIO3,V2P1,AON3,AON1,UART0_RX_GPIO58,UART1_RX,SPI_DIN,TMS_GPIO54,TRST_GPIO57,TESTMODE,AIN1_GPIO4,ATST0_GPIO0,PVDD,AONIRQ,AON2,AON0,RTCOUT_GPIO65,GPIO66,SPI_CSN_UART2_RX,TDI_GPIO56,I2C0_SDA_GPIO63,I2C1_SDA_GPIO61,AIN2_GPIO5,ATST1_GPIO1,DVD,GPIO64,SPI_CLK_UART2_TX,TCK_GPIO55,I2C0_SCL_GPIO62,I2C1_SCL_GPIO60,AIN3_GPIO6,ATST2_GPIO2,ATST2_GPIO2_1,ATST2_GPIO2_2,DVD1,DVD2,VREFP,VDDA,IP3,IN3,VP3,VN3,TP,IP1,IN1,VP1,VN1,IP2,IN2,VP2,VN2,MCE_Trigger_AWG,MCE_Trigger_DIG,TN,MCE_Trigger_AWG_S2,TRIG_S1,TRIG_S2,TRIG_S3,TRIG_S4,TRIG_FE1,TRIG_FE2)
+LSUX 1
+EQSP LEV,EQN,#9000019930EQNSET 1 "Eq_Contact"
+
+SPECS
+	vdd_cont [V]        #supply voltage contact test
+	idd_cont [mA]       #supply current contact test
+	vil_cont [V]        #low level input voltage contact test
+	vih_cont [V]        #high level input voltage contact test
+	vol_cont [V]        #low level output voltage contact test
+	voh_cont [V]        #high level output voltage contact test
+    iol_cont [mA]       #low level output current contact test
+	ioh_cont [mA]       #high level output current contact test
+	vt_cont  [V]        #termination voltage contact test
+
+
+DPSPINS DPS_VBOOST
+
+
+	vout    = vdd_cont
+	ilimit  = idd_cont
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 4.0	
+#	iout_clamp_rng = 1
+	
+
+DPSPINS DPS_VBAT
+
+	vout    = vdd_cont
+	ilimit  = idd_cont
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 3.7
+#	iout_clamp_rng = 1
+
+DPSPINS DPS_VANA
+
+	vout    = vdd_cont
+	ilimit  = idd_cont
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 3.7
+#	iout_clamp_rng = 1
+
+DPSPINS DPS_DVDD_LP
+
+	vout    = vdd_cont
+	ilimit  = idd_cont
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 1.2
+#	iout_clamp_rng = 1
+
+DPSPINS DPS_VBAT_RTC
+
+	vout    = vdd_cont
+	ilimit  = idd_cont
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 3.7
+#	iout_clamp_rng = 1
+	
+DPSPINS DPS_VDIG
+
+	vout    = vdd_cont
+	ilimit  = idd_cont
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 3.7
+#	iout_clamp_rng = 1
+
+DPSPINS DPS_VDD_ANALOG
+
+	vout    = vdd_cont
+	ilimit  = idd_cont
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 3.7	
+#	iout_clamp_rng = 1
+
+DPSPINS DPS_VCC_ANA
+
+	vout    = vdd_cont
+	ilimit  = idd_cont
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 3.7
+#	iout_clamp_rng = 0.2
+
+DPSPINS DPS_PVDD
+
+	vout    = vdd_cont
+	ilimit  = idd_cont
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 3.7
+#	iout_clamp_rng = 1
+
+DPSPINS DPS_AVD
+
+	vout    = vdd_cont
+	ilimit  = idd_cont
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 3.7
+#	iout_clamp_rng = 1
+
+DPSPINS DPS_DVD
+
+	vout    = vdd_cont
+	ilimit  = idd_cont
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 1.2
+#	iout_clamp_rng = 1
+
+
+LEVELSET 1 "Contact_LS"
+
+PINS ALLPINS
+	vil = vil_cont
+	vih = vih_cont
+	vol = vol_cont
+	voh = voh_cont
+	iol = iol_cont
+	ioh = ioh_cont
+	vt  = vt_cont
+
+LEVELSET 2 "FuncLower_conti_LS"
+
+PINS FUNC_LOWER_CONTI
+	vil = vil_cont
+	vih = vih_cont
+	vol = vol_cont
+	voh = voh_cont
+	iol = iol_cont
+	ioh = ioh_cont
+	vt  = vt_cont
+
+PINS RF_GROUP
+
+vil = vil_cont
+	vih = vih_cont
+	vol = -1.5
+	voh = 1.5
+	iol = 0.03
+	ioh = 0.03
+	vt  = vt_cont
+
+PINS VBOOST_VDIG_PVDD_GROUP
+vil = vil_cont
+	vih = vih_cont
+	vol = -1.5
+	voh = 3
+	iol = 0.001
+	ioh = 0.001
+	vt  = vt_cont
+
+PINS MCE_TRIGGER
+	vil = -1
+	vih = 1
+	vol = 0.0
+	voh = 0.0
+	ioh = 0.0
+	vt  = 0.0
+
+
+PINS RF_TRIG
+	vil = 0
+	vih = 3
+	vol = 0.5
+	voh = 2.2
+	iol = 0
+	ioh = 0
+	vt  = 0
+
+
+LEVELSET 3 "FuncUpper_conti_LS"
+
+PINS FUNC_UPPER_CONTI
+	vil = vil_cont
+	vih = vih_cont
+	vol = vol_cont
+	voh = voh_cont
+	iol = iol_cont
+	ioh = ioh_cont
+	vt  = vt_cont
+
+PINS ANT
+
+	vil = vil_cont
+	vih = vih_cont
+	vol = -1.5
+	voh = 1.5
+	iol = 0.03
+	ioh = 0.03
+	vt  = vt_cont
+
+PINS VBOOST_VDIG_PVDD_GROUP
+	vil = vil_cont
+	vih = vih_cont
+	vol = -1.5
+	voh = 3
+	iol = 0.001
+	ioh = 0.001
+	vt  = vt_cont
+
+PINS XIN_XTAL_GROUP
+   	vil = vil_cont
+	vih = vih_cont
+	vol = 0.1
+	voh = 3
+    	iol = iol_cont
+	ioh = ioh_cont
+	vt  = vt_cont
+
+PINS VSCAP
+   	vil = vil_cont
+	vih = vih_cont
+	vol = -1.5
+	voh = 3
+    	iol = iol_cont
+	ioh = ioh_cont
+	vt  = vt_cont
+
+PINS MCE_TRIGGER
+	vil = -1
+	vih = 1
+	vol = 0.0
+	voh = 0.0
+	ioh = 0.0
+	vt  = 0.0
+
+
+PINS RF_TRIG
+	vil = 0
+	vih = 3
+	vol = 0.5
+	voh = 2.2
+	iol = 0
+	ioh = 0
+	vt  = 0
+
+EQNSET 2 "Eq_Func"
+
+SPECS
+
+	vdd_boost   [V]  #supply voltage VBOOST
+	idd_boost  [mA] #supply current VBOOST
+	vdd_bbst_sw  [V]  #supply voltage DPS_BBST_SW
+	idd_bbst_sw  [mA] #supply current DPS_BBST_SW
+	vdd_bat  [V]  #supply voltage VBAT
+	idd_bat  [mA] #supply current VBAT
+	vdd_ana [V]  #supply voltage VANA
+	idd_ana [mA] #supply current VANA
+	vdd_DVDD_LP [V]  #supply voltage DPS_DVDD_LP
+	idd_DVDD_LP [mA] #supply current DPS_DVDD_LP
+
+    vdd_vcc_ana   [V]  #supply voltage VCC_ANA
+	idd_vcc_ana  [mA] #supply current VCC_ANA
+	vdd_dig  [V]  #supply voltage VDIG
+	idd_dig  [mA] #supply current VDIG
+	vdd_bat_rtc  [V]  #supply voltage VBAT_RTC
+	idd_bat_rtc  [mA] #supply current VBAT_RTC
+	vdd_analog [V]  #supply voltage VDD_ANALOG
+	idd_analog [mA] #supply current VDD_ANALOG
+
+    vdd_pvdd  [V]  #supply voltage DPS_PVDD
+	idd_pvdd  [mA] #supply current DPS_PVDD
+	vdd_avd [V]  #supply voltage AVD
+	idd_avd  [mA] #supply current AVD
+
+	vdd_DVD [V]  #supply voltage DPS_DVD
+	idd_DVD [mA] #supply current DPS_DVD
+	
+	vrst   [V] #voltage for RST_BI limited to 3.6V
+	vmcldo [V] #voltage of VMC_LDO
+	
+	f_vil []   #factor for vil 
+	f_vih []   #factor for vih
+	f_vol []   #factor for vol
+	f_voh []   #factor for voh
+	f_vt  []   #factor for vt 
+
+    iol_func  [mA]  #low evel output current 
+	ioh_func  [mA]  #high level output current
+	
+	vil_default [V]
+	vih_default [V]
+	vol_default [V]
+	voh_default [V]
+	vt_default  [V]
+	iol_default [mA]
+	ioh_default [mA]
+
+	vil_trigger [V]   #low level input trigger MCB pins
+	vih_trigger [V]   #high level input voltage trigger MCB pins
+	vol_trigger [V]   #low level output voltage trigger MCB pins
+	voh_trigger [V]   #high level output voltage trigger MCB pins
+    iol_trigger [mA]  #low level output current trigger MCB pins
+	ioh_trigger [mA]  #high level output current trigger MCB pins
+	vt_trigger  [V]   #termination voltage trigger MCB pins
+	
+
+DPSPINS DPS_VBOOST
+
+	vout    = vdd_boost
+	ilimit  = idd_boost
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 4.0		
+
+		
+
+DPSPINS DPS_VBAT
+
+	vout    = vdd_bat
+	ilimit  = idd_bat
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7	
+
+DPSPINS DPS_VANA
+
+	vout    = vdd_ana
+	ilimit  = idd_ana
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7	
+
+DPSPINS DPS_DVDD_LP
+
+	vout    = vdd_DVDD_LP
+	ilimit  = idd_DVDD_LP
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 1.2	
+	
+DPSPINS DPS_VBAT_RTC
+
+	vout    = vdd_bat_rtc
+	ilimit  = idd_bat_rtc
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7
+
+DPSPINS DPS_VDIG
+
+	vout    = vdd_dig
+	ilimit  = idd_dig
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 3.7		
+
+DPSPINS DPS_VDD_ANALOG
+
+	vout    = vdd_analog
+	ilimit  = idd_analog
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 3.7		
+
+DPSPINS DPS_VCC_ANA
+
+	vout    = vdd_vcc_ana
+	ilimit  = idd_vcc_ana
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7	
+
+DPSPINS DPS_PVDD
+
+	vout    = vdd_pvdd
+	ilimit  = idd_pvdd
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7	
+	
+DPSPINS DPS_AVD
+
+	vout    = vdd_avd
+	ilimit  = idd_avd
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7	
+
+DPSPINS DPS_DVD
+
+	vout    = vdd_DVD
+	ilimit  = idd_DVD
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 1.2	
+	
+
+LEVELSET 1 "FuncLS"
+
+
+
+PINS GPIO_WO_TRIGGER -( XIN XOUT XTAL_I_RTC XTAL_O_RTC ) # remove clocks
+	vil = f_vil*(vdd_boost-0.3)
+	vih = f_vih*(vdd_boost-0.3)
+	vol = f_vol*(vdd_boost-0.3)
+	voh = f_voh*(vdd_boost-0.3)
+#	iol = iol_func
+#	ioh = ioh_func
+#	vt = f_vt*vdd_boost
+
+
+PINS XTAL_I_RTC XTAL_O_RTC   #32.768 KHz FRC
+	vil = 0
+	vih = 0.25
+	vol = 0
+	voh = 0.25
+
+
+PINS XIN XOUT    #32 MHz FRC
+	vil = 0
+	vih = 0.9
+	vol = 0
+	voh = 0.9
+
+
+PINS MCE_TRIGGER
+	vil = vil_trigger
+	vih = vih_trigger
+	vol = vol_trigger
+	voh = voh_trigger
+	iol = iol_trigger
+	ioh = ioh_trigger
+	vt  = vt_trigger
+
+PINS RF_TRIG
+	vil = 0
+	vih = 3
+	vol = 0.5
+	voh = 2.2
+	iol = iol_trigger
+	ioh = ioh_trigger
+	vt  = vt_trigger
+
+	
+LEVELSET 2 "FuncLS_LevelTest"
+
+
+
+PINS GPIO_WO_TRIGGER -( XIN XOUT XTAL_I_RTC XTAL_O_RTC ) # remove clocks
+	vil = f_vil*(vdd_boost-0.3)
+	vih = f_vih*(vdd_boost-0.3)
+	vol = f_vol*(vdd_boost-0.3)
+	voh = f_voh*(vdd_boost-0.3)
+	iol = iol_func
+	ioh = ioh_func
+	vt  = f_vt*(vdd_boost-0.3)
+
+
+PINS XTAL_I_RTC XTAL_O_RTC   #32.768 KHz FRC
+	vil = 0
+	vih = 0.25
+	vol = 0
+	voh = 0.25
+
+
+PINS XIN XOUT    #32 MHz FRC
+	vil = 0
+	vih = 0.9
+	vol = 0
+	voh = 0.9
+
+
+PINS MCE_TRIGGER
+	vil = vil_trigger
+	vih = vih_trigger
+	vol = vol_trigger
+	voh = voh_trigger
+	iol = iol_trigger
+	ioh = ioh_trigger
+	vt  = vt_trigger
+
+PINS RF_TRIG
+	vil = 0
+	vih = 3
+	vol = 0.5
+	voh = 2.2
+	iol = iol_trigger
+	ioh = ioh_trigger
+	vt  = vt_trigger
+
+
+EQNSET 3 "Eq_Func_LCD"
+
+SPECS
+
+	vdd_boost   [V]  #supply voltage VBOOST
+	idd_boost  [mA] #supply current VBOOST
+	vdd_bbst_sw  [V]  #supply voltage DPS_BBST_SW
+	idd_bbst_sw  [mA] #supply current DPS_BBST_SW
+	vdd_bat  [V]  #supply voltage VBAT
+	idd_bat  [mA] #supply current VBAT
+	vdd_ana [V]  #supply voltage VANA
+	idd_ana [mA] #supply current VANA
+    vdd_DVDD_LP [V]  #supply voltage DPS_DVDD_LP
+	idd_DVDD_LP [mA] #supply current DPS_DVDD_LP
+
+    vdd_vcc_ana   [V]  #supply voltage VCC_ANA
+	idd_vcc_ana  [mA] #supply current VCC_ANA
+	vdd_dig  [V]  #supply voltage VDIG
+	idd_dig  [mA] #supply current VDIG
+	vdd_bat_rtc  [V]  #supply voltage VBAT_RTC
+	idd_bat_rtc  [mA] #supply current VBAT_RTC
+	vdd_analog [V]  #supply voltage VDD_ANALOG
+	idd_analog [mA] #supply current VDD_ANALOG
+
+    vdd_pvdd  [V]  #supply voltage DPS_PVDD
+	idd_pvdd  [mA] #supply current DPS_PVDD
+	vdd_avd [V]  #supply voltage AVD
+	idd_avd  [mA] #supply current AVD
+
+	vdd_DVD [V]  #supply voltage DPS_DVD
+	idd_DVD [mA] #supply current DPS_DVD
+	
+	vrst   [V] #voltage for RST_BI limited to 3.6V
+	vmcldo [V] #voltage of VMC_LDO
+	
+	f_vil []   #factor for vil 
+	f_vih []   #factor for vih
+	f_vol []   #factor for vol
+	f_voh []   #factor for voh
+	f_vt  []   #factor for vt 
+
+    iol_func  [mA]  #low evel output current 
+	ioh_func  [mA]  #high level output current
+	
+	vil_default [V]
+	vih_default [V]
+	vol_default [V]
+	voh_default [V]
+	vt_default  [V]
+	iol_default [mA]
+	ioh_default [mA]
+
+	vil_trigger [V]   #low level input trigger MCB pins
+	vih_trigger [V]   #high level input voltage trigger MCB pins
+	vol_trigger [V]   #low level output voltage trigger MCB pins
+	voh_trigger [V]   #high level output voltage trigger MCB pins
+    iol_trigger [mA]  #low level output current trigger MCB pins
+	ioh_trigger [mA]  #high level output current trigger MCB pins
+	vt_trigger  [V]   #termination voltage trigger MCB pins
+
+	vil_lcd [V]
+	vih_lcd [V]
+	vol_lcd [V]
+	voh_lcd [V]
+	vt_lcd  [V]
+	iol_lcd [mA]
+	ioh_lcd [mA]
+	
+
+DPSPINS DPS_VBOOST
+
+	vout    = vdd_boost
+	ilimit  = idd_boost
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 4.0	
+
+		
+
+DPSPINS DPS_VBAT
+
+	vout    = vdd_bat
+	ilimit  = idd_bat
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7	
+
+DPSPINS DPS_VANA
+
+	vout    = vdd_ana
+	ilimit  = idd_ana
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7	
+
+DPSPINS DPS_DVDD_LP
+
+	vout    = vdd_DVDD_LP
+	ilimit  = idd_DVDD_LP
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 1.2	
+	
+DPSPINS DPS_VBAT_RTC
+
+	vout    = vdd_bat_rtc
+	ilimit  = idd_bat_rtc
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7
+
+DPSPINS DPS_VDIG
+
+	vout    = vdd_dig
+	ilimit  = idd_dig
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 3.7		
+
+DPSPINS DPS_VDD_ANALOG
+
+	vout    = vdd_analog
+	ilimit  = idd_analog
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 3.7		
+
+DPSPINS DPS_VCC_ANA
+
+	vout    = vdd_vcc_ana
+	ilimit  = idd_vcc_ana
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7	
+
+DPSPINS DPS_PVDD
+
+	vout    = vdd_pvdd
+	ilimit  = idd_pvdd
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7	
+	
+DPSPINS DPS_AVD
+
+	vout    = vdd_avd
+	ilimit  = idd_avd
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7	
+
+DPSPINS DPS_DVD
+
+	vout    = vdd_DVD
+	ilimit  = idd_DVD
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 1.2	
+	
+
+LEVELSET 1 "FuncLS_LCD"
+
+
+
+PINS GPIO_WO_TRIGGER -( XIN XOUT XTAL_I_RTC XTAL_O_RTC COM0_GPIO7 COM1_GPIO8 COM2_GPIO9 COM3_GPIO10 COM4_SEG0_GPIO11 COM5_SEG1_GPIO12 COM6_SEG2_GPIO13 COM7_SEG3_GPIO14 ) # remove clocks and COM
+	vil = f_vil*(vdd_boost-0.3)
+	vih = f_vih*(vdd_boost-0.3)
+	vol = f_vol*(vdd_boost-0.3)
+	voh = f_voh*(vdd_boost-0.3)
+#	iol = iol_func
+#	ioh = ioh_func
+#	vt = f_vt*vdd_boost
+
+PINS COM0_GPIO7 COM1_GPIO8 COM2_GPIO9 COM3_GPIO10 COM4_SEG0_GPIO11 COM5_SEG1_GPIO12 COM6_SEG2_GPIO13 COM7_SEG3_GPIO14
+	vil = vil_lcd
+	vih = vih_lcd
+	vol = vol_lcd
+	voh = voh_lcd
+#	iol = vt_lcd 
+#	ioh = iol_lcd
+#	vt  = ioh_lcd
+
+
+PINS XTAL_I_RTC XTAL_O_RTC   #32.768 KHz FRC
+	vil = 0
+	vih = 0.25
+	vol = 0
+	voh = 0.25
+
+
+PINS XIN XOUT    #32 MHz FRC
+	vil = 0
+	vih = 0.9
+	vol = 0
+	voh = 0.9
+
+
+PINS MCE_TRIGGER
+	vil = -1
+	vih = 1
+	vol = 0.0
+	voh = 0.0
+	ioh = 0.0
+	vt  = 0.0
+
+
+PINS RF_TRIG
+	vil = 0
+	vih = 3
+	vol = 0.5
+	voh = 2.2
+	iol = 0
+	ioh = 0
+	vt  = 0
+
+
+EQNSET 4 "Himp_Func"
+
+SPECS
+
+	vdd_boost   [V]  #supply voltage VBOOST
+	idd_boost  [mA] #supply current VBOOST
+	vdd_bbst_sw  [V]  #supply voltage DPS_BBST_SW
+	idd_bbst_sw  [mA] #supply current DPS_BBST_SW
+	vdd_bat  [V]  #supply voltage VBAT
+	idd_bat  [mA] #supply current VBAT
+	vdd_ana [V]  #supply voltage VANA
+	idd_ana [mA] #supply current VANA
+    	vdd_DVDD_LP [V]  #supply voltage DPS_DVDD_LP
+	idd_DVDD_LP [mA] #supply current DPS_DVDD_LP
+
+    	vdd_vcc_ana   [V]  #supply voltage VCC_ANA
+	idd_vcc_ana  [mA] #supply current VCC_ANA
+	vdd_dig  [V]  #supply voltage VDIG
+	idd_dig  [mA] #supply current VDIG
+	vdd_bat_rtc  [V]  #supply voltage VBAT_RTC
+	idd_bat_rtc  [mA] #supply current VBAT_RTC
+	vdd_analog [V]  #supply voltage VDD_ANALOG
+	idd_analog [mA] #supply current VDD_ANALOG
+
+    	vdd_pvdd  [V]  #supply voltage DPS_PVDD
+	idd_pvdd  [mA] #supply current DPS_PVDD
+	vdd_avd [V]  #supply voltage AVD
+	idd_avd  [mA] #supply current AVD
+
+	vdd_DVD [V]  #supply voltage DPS_DVD
+	idd_DVD [mA] #supply current DPS_DVD
+	
+	vrst   [V] #voltage for RST_BI limited to 3.6V
+	vmcldo [V] #voltage of VMC_LDO
+	
+	f_vil []   #factor for vil 
+	f_vih []   #factor for vih
+	f_vol []   #factor for vol
+	f_voh []   #factor for voh
+	f_vt  []   #factor for vt 
+
+    	iol_func  [mA]  #low evel output current 
+	ioh_func  [mA]  #high level output current
+	
+	vil_default [V]
+	vih_default [V]
+	vol_default [V]
+	voh_default [V]
+	vt_default  [V]
+	iol_default [mA]
+	ioh_default [mA]
+
+	vil_trigger [V]   #low level input trigger MCB pins
+	vih_trigger [V]   #high level input voltage trigger MCB pins
+	vol_trigger [V]   #low level output voltage trigger MCB pins
+	voh_trigger [V]   #high level output voltage trigger MCB pins
+    	iol_trigger [mA]  #low level output current trigger MCB pins
+	ioh_trigger [mA]  #high level output current trigger MCB pins
+	vt_trigger  [V]   #termination voltage trigger MCB pins
+	
+
+DPSPINS DPS_VBOOST
+
+	vout    = vdd_boost
+	ilimit  = idd_boost
+	t_ms    = 0.2
+	offcurr = act
+   	connect_state = himp
+	vout_frc_rng = 4.0		
+		
+
+DPSPINS DPS_VBAT
+
+	vout    = vdd_bat
+	ilimit  = idd_bat
+	t_ms    = 0.2
+	offcurr = act	
+   	connect_state = himp
+	vout_frc_rng = 3.7	
+
+DPSPINS DPS_VANA
+
+	vout    = vdd_ana
+	ilimit  = idd_ana
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7	
+
+DPSPINS DPS_DVDD_LP
+
+	vout    = vdd_DVDD_LP
+	ilimit  = idd_DVDD_LP
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 1.2	
+	
+DPSPINS DPS_VBAT_RTC
+
+	vout    = vdd_bat_rtc
+	ilimit  = idd_bat_rtc
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7
+
+DPSPINS DPS_VDIG
+
+	vout    = vdd_dig
+	ilimit  = idd_dig
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 3.7		
+
+DPSPINS DPS_VDD_ANALOG
+
+	vout    = vdd_analog
+	ilimit  = idd_analog
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 3.7		
+
+DPSPINS DPS_VCC_ANA
+
+	vout    = vdd_vcc_ana
+	ilimit  = idd_vcc_ana
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7	
+
+DPSPINS DPS_PVDD
+
+	vout    = vdd_pvdd
+	ilimit  = idd_pvdd
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7	
+	
+DPSPINS DPS_AVD
+
+	vout    = vdd_avd
+	ilimit  = idd_avd
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7	
+
+DPSPINS DPS_DVD
+
+	vout    = vdd_DVD
+	ilimit  = idd_DVD
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng =1.2	
+	
+
+LEVELSET 1 "FuncLS"
+
+
+
+PINS GPIO_WO_TRIGGER -( XIN XOUT XTAL_I_RTC XTAL_O_RTC ) # remove clocks
+	vil = f_vil*(vdd_boost-0.3)
+	vih = f_vih*(vdd_boost-0.3)
+	vol = f_vol*(vdd_boost-0.3)
+	voh = f_voh*(vdd_boost-0.3)
+#	iol = iol_func
+#	ioh = ioh_func
+#	vt = f_vt*vdd_boost
+
+
+PINS XTAL_I_RTC XTAL_O_RTC   #32.768 KHz FRC
+	vil = 0
+	vih = 0.25
+	vol = 0
+	voh = 0.25
+
+
+PINS XIN XOUT    #32 MHz FRC
+	vil = 0
+	vih = 0.9
+	vol = 0
+	voh = 0.9
+
+
+PINS MCE_TRIGGER
+	vil = vil_trigger
+	vih = vih_trigger
+	vol = vol_trigger
+	voh = voh_trigger
+	iol = iol_trigger
+	ioh = ioh_trigger
+	vt  = vt_trigger
+
+
+PINS RF_TRIG
+	vil = 0
+	vih = 3
+	vol = 0.5
+	voh = 2.2
+	iol = iol_trigger
+	ioh = ioh_trigger
+	vt  = vt_trigger
+	
+
+
+EQNSET 5 "Himp_VCC"
+
+SPECS
+
+	vdd_boost   [V]  #supply voltage VBOOST
+	idd_boost  [mA] #supply current VBOOST
+	vdd_bbst_sw  [V]  #supply voltage DPS_BBST_SW
+	idd_bbst_sw  [mA] #supply current DPS_BBST_SW
+	vdd_bat  [V]  #supply voltage VBAT
+	idd_bat  [mA] #supply current VBAT
+	vdd_ana [V]  #supply voltage VANA
+	idd_ana [mA] #supply current VANA
+    vdd_DVDD_LP [V]  #supply voltage DPS_DVDD_LP
+	idd_DVDD_LP [mA] #supply current DPS_DVDD_LP
+
+    vdd_vcc_ana   [V]  #supply voltage VCC_ANA
+	idd_vcc_ana  [mA] #supply current VCC_ANA
+	vdd_dig  [V]  #supply voltage VDIG
+	idd_dig  [mA] #supply current VDIG
+	vdd_bat_rtc  [V]  #supply voltage VBAT_RTC
+	idd_bat_rtc  [mA] #supply current VBAT_RTC
+	vdd_analog [V]  #supply voltage VDD_ANALOG
+	idd_analog [mA] #supply current VDD_ANALOG
+
+    vdd_pvdd  [V]  #supply voltage DPS_PVDD
+	idd_pvdd  [mA] #supply current DPS_PVDD
+	vdd_avd [V]  #supply voltage AVD
+	idd_avd  [mA] #supply current AVD
+
+	vdd_DVD [V]  #supply voltage DPS_DVD
+	idd_DVD [mA] #supply current DPS_DVD
+	
+	vrst   [V] #voltage for RST_BI limited to 3.6V
+	vmcldo [V] #voltage of VMC_LDO
+	
+	f_vil []   #factor for vil 
+	f_vih []   #factor for vih
+	f_vol []   #factor for vol
+	f_voh []   #factor for voh
+	f_vt  []   #factor for vt 
+
+    iol_func  [mA]  #low evel output current 
+	ioh_func  [mA]  #high level output current
+	
+	vil_default [V]
+	vih_default [V]
+	vol_default [V]
+	voh_default [V]
+	vt_default  [V]
+	iol_default [mA]
+	ioh_default [mA]
+
+	vil_trigger [V]   #low level input trigger MCB pins
+	vih_trigger [V]   #high level input voltage trigger MCB pins
+	vol_trigger [V]   #low level output voltage trigger MCB pins
+	voh_trigger [V]   #high level output voltage trigger MCB pins
+    iol_trigger [mA]  #low level output current trigger MCB pins
+	ioh_trigger [mA]  #high level output current trigger MCB pins
+	vt_trigger  [V]   #termination voltage trigger MCB pins
+	
+
+DPSPINS DPS_VBOOST
+
+	vout    = vdd_boost
+	ilimit  = idd_boost
+	t_ms    = 0.2
+	offcurr = act
+connect_state = himp
+	vout_frc_rng = 4.0		
+		
+
+DPSPINS DPS_VBAT
+
+	vout    = vdd_bat
+	ilimit  = idd_bat
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7	
+
+DPSPINS DPS_VANA
+
+	vout    = vdd_ana
+	ilimit  = idd_ana
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7	
+
+DPSPINS DPS_DVDD_LP
+
+	vout    = vdd_DVDD_LP
+	ilimit  = idd_DVDD_LP
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 1.2	
+	
+DPSPINS DPS_VBAT_RTC
+
+	vout    = vdd_bat_rtc
+	ilimit  = idd_bat_rtc
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7
+
+DPSPINS DPS_VDIG
+
+	vout    = vdd_dig
+	ilimit  = idd_dig
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 3.7		
+
+DPSPINS DPS_VDD_ANALOG
+
+	vout    = vdd_analog
+	ilimit  = idd_analog
+	t_ms    = 0.2
+	offcurr = act
+	vout_frc_rng = 3.7		
+
+DPSPINS DPS_VCC_ANA
+
+	vout    = vdd_vcc_ana
+	ilimit  = idd_vcc_ana
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7	
+
+DPSPINS DPS_PVDD
+
+	vout    = vdd_pvdd
+	ilimit  = idd_pvdd
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7	
+	
+DPSPINS DPS_AVD
+
+	vout    = vdd_avd
+	ilimit  = idd_avd
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng = 3.7	
+
+DPSPINS DPS_DVD
+
+	vout    = vdd_DVD
+	ilimit  = idd_DVD
+	t_ms    = 0.2
+	offcurr = act	
+	vout_frc_rng =1.2	
+	
+
+LEVELSET 1 "FuncLS"
+
+
+
+PINS GPIO_WO_TRIGGER -( XIN XOUT XTAL_I_RTC XTAL_O_RTC ) # remove clocks
+	vil = f_vil*vdd_dig
+	vih = f_vih*vdd_dig
+	vol = f_vol*vdd_dig
+	voh = f_voh*vdd_dig
+#	iol = iol_func
+#	ioh = ioh_func
+#	vt = f_vt*vdd_boost
+
+
+PINS XTAL_I_RTC XTAL_O_RTC   #32.768 KHz FRC
+	vil = 0
+	vih = 0.25
+	vol = 0
+	voh = 0.25
+
+
+PINS XIN XOUT    #32 MHz FRC
+	vil = 0
+	vih = 0.9
+	vol = 0
+	voh = 0.9
+
+
+PINS MCE_TRIGGER
+	vil = vil_trigger
+	vih = vih_trigger
+	vol = vol_trigger
+	voh = voh_trigger
+	iol = iol_trigger
+	ioh = ioh_trigger
+	vt  = vt_trigger
+
+
+PINS RF_TRIG
+	vil = 0
+	vih = 3
+	vol = 0.5
+	voh = 2.2
+	iol = iol_trigger
+	ioh = ioh_trigger
+	vt  = vt_trigger
+@
+EQSP LEV,SPS,#9000054296
+
+
+EQNSET 1 "Eq_Contact"
+
+
+
+SPECSET 1 "ZERO"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+vdd_cont         0                                                  [  V] 
+idd_cont         200                                                [ mA] 
+vil_cont         0                                                  [  V] 
+vih_cont         0                                                  [  V] 
+vol_cont         0                                                  [  V] 
+voh_cont         0                                                  [  V] 
+iol_cont         0                                                  [ mA] 
+ioh_cont         0                                                  [ mA] 
+vt_cont          0                                                  [  V] 
+
+
+
+SPECSET 2 "Func_Lower_conti_spec"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+vdd_cont         0                                                  [  V] 
+idd_cont         200                                                [ mA] 
+vil_cont         0                                                  [  V] 
+vih_cont         0                                                  [  V] 
+vol_cont         -0.9                                               [  V] 
+voh_cont         -0.3                                               [  V] 
+iol_cont         1                                                  [ mA] 
+ioh_cont         1                                                  [ mA] 
+vt_cont          -1.2                                               [  V] 
+
+
+
+SPECSET 3 "Func_Upper_conti_spec"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+vdd_cont         0                                                  [  V] 
+idd_cont         200                                                [ mA] 
+vil_cont         0                                                  [  V] 
+vih_cont         0                                                  [  V] 
+vol_cont         0.3                                                [  V] 
+voh_cont         0.9                                                [  V] 
+iol_cont         1                                                  [ mA] 
+ioh_cont         1                                                  [ mA] 
+vt_cont          1.2                                                [  V] 
+
+
+
+SPECSET 4 "Vddshorts_contact_LS"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+vdd_cont         0.3                                                [  V] 
+idd_cont         200                                                [ mA] 
+vil_cont         -0.1                                               [  V] 
+vih_cont         0                                                  [  V] 
+vol_cont         -0.9                                               [  V] 
+voh_cont         -0.3                                               [  V] 
+iol_cont         0                                                  [ mA] 
+ioh_cont         0                                                  [ mA] 
+vt_cont          -0.9                                               [  V] 
+
+
+
+SPECSET 5 "Parametric_DPS_short_contact_LS"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+vdd_cont         0                                                  [  V] 
+idd_cont         200                                                [ mA] 
+vil_cont         -0.1                                               [  V] 
+vih_cont         0                                                  [  V] 
+vol_cont         -0.9                                               [  V] 
+voh_cont         -0.3                                               [  V] 
+iol_cont         0                                                  [ mA] 
+ioh_cont         0                                                  [ mA] 
+vt_cont          -0.9                                               [  V] 
+
+
+
+SPECSET 6 "Parametric_contact_LS"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+vdd_cont         0                                                  [  V] 
+idd_cont         200                                                [ mA] 
+vil_cont         0                                                  [  V] 
+vih_cont         0                                                  [  V] 
+vol_cont         0.3                                                [  V] 
+voh_cont         0.9                                                [  V] 
+iol_cont         1                                                  [ mA] 
+ioh_cont         1                                                  [ mA] 
+vt_cont          1.2                                                [  V] 
+
+EQNSET 2 "Eq_Func"
+
+
+
+SPECSET 1 "FuncLS"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+vil_trigger      -0.95                                              [  V] 
+vih_trigger      1                                                  [  V] 
+vol_trigger      0                                                  [  V] 
+voh_trigger      1                                                  [  V] 
+iol_trigger      0.1                                                [ mA] 
+ioh_trigger      0.1                                                [ mA] 
+vt_trigger       0.75                                               [  V] 
+vdd_DVDD_LP      1.15                                               [  V] 
+idd_DVDD_LP      200                                                [ mA] 
+vdd_DVD          1.15                                               [  V] 
+idd_DVD          200                                                [ mA] 
+vdd_boost        3.6                                                [  V] 
+idd_boost        200                                                [ mA] 
+vdd_bbst_sw      3.3                                                [  V] 
+idd_bbst_sw      200                                                [ mA] 
+vdd_bat          3                                                  [  V] 
+idd_bat          200                                                [ mA] 
+vdd_ana          3.3                                                [  V] 
+idd_ana          200                                                [ mA] 
+vdd_vcc_ana      3.3                                                [  V] 
+idd_vcc_ana      200                                                [ mA] 
+vdd_dig          3.3                                                [  V] 
+idd_dig          200                                                [ mA] 
+vdd_bat_rtc      3                                                  [  V] 
+idd_bat_rtc      200                                                [ mA] 
+vdd_analog       3.3                                                [  V] 
+idd_analog       200                                                [ mA] 
+vdd_pvdd         3.3                                                [  V] 
+idd_pvdd         200                                                [ mA] 
+vdd_avd          3.3                                                [  V] 
+idd_avd          200                                                [ mA] 
+vrst             2.7                                                [  V] 
+vmcldo           2                                                  [  V] 
+f_vil            0.1                                                [   ] 
+f_vih            0.9                                                [   ] 
+f_vol            0.2                                                [   ] 
+f_voh            0.8                                                [   ] 
+f_vt             0.5                                                [   ] 
+iol_func         8                                                  [ mA] 
+ioh_func         8                                                  [ mA] 
+vil_default      0                                                  [  V] 
+vih_default      0.1                                                [  V] 
+vol_default      0                                                  [  V] 
+voh_default      0.1                                                [  V] 
+vt_default       0                                                  [  V] 
+iol_default      0.1                                                [ mA] 
+ioh_default      0.1                                                [ mA] 
+
+
+
+SPECSET 2 "FuncMin_FuncLS"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+vdd_boost        2.1                                                [  V] 
+idd_boost        200                                                [ mA] 
+vdd_bbst_sw      1.8                                                [  V] 
+idd_bbst_sw      200                                                [ mA] 
+vdd_bat          1.8                                                [  V] 
+idd_bat          200                                                [ mA] 
+vdd_ana          1.8                                                [  V] 
+idd_ana          200                                                [ mA] 
+vdd_DVDD_LP      1.15                                               [  V] 
+idd_DVDD_LP      200                                                [ mA] 
+vdd_vcc_ana      1.8                                                [  V] 
+idd_vcc_ana      200                                                [ mA] 
+vdd_dig          1.8                                                [  V] 
+idd_dig          200                                                [ mA] 
+vdd_bat_rtc      1.8                                                [  V] 
+idd_bat_rtc      200                                                [ mA] 
+vdd_analog       1.8                                                [  V] 
+idd_analog       200                                                [ mA] 
+vdd_pvdd         1.8                                                [  V] 
+idd_pvdd         200                                                [ mA] 
+vdd_avd          1.8                                                [  V] 
+idd_avd          200                                                [ mA] 
+vdd_DVD          1.15                                               [  V] 
+idd_DVD          200                                                [ mA] 
+vrst             2.7                                                [  V] 
+vmcldo           2                                                  [  V] 
+f_vil            0.1                                                [   ] 
+f_vih            0.9                                                [   ] 
+f_vol            0.4                                                [   ] 
+f_voh            0.9                                                [   ] 
+f_vt             0.5                                                [   ] 
+iol_func         8                                                  [ mA] 
+ioh_func         8                                                  [ mA] 
+vil_default      0                                                  [  V] 
+vih_default      0.1                                                [  V] 
+vol_default      0                                                  [  V] 
+voh_default      0.1                                                [  V] 
+vt_default       0                                                  [  V] 
+iol_default      0.1                                                [ mA] 
+ioh_default      0.1                                                [ mA] 
+vil_trigger      -0.95                                              [  V] 
+vih_trigger      1                                                  [  V] 
+vol_trigger      0                                                  [  V] 
+voh_trigger      1                                                  [  V] 
+iol_trigger      0.1                                                [ mA] 
+ioh_trigger      0.1                                                [ mA] 
+vt_trigger       0.75                                               [  V] 
+
+
+
+SPECSET 3 "FuncMax_FuncLS"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+vdd_boost        3.9                                                [  V] 
+idd_boost        200                                                [ mA] 
+vdd_bbst_sw      3.6                                                [  V] 
+idd_bbst_sw      200                                                [ mA] 
+vdd_bat          3.6                                                [  V] 
+idd_bat          200                                                [ mA] 
+vdd_ana          3.6                                                [  V] 
+idd_ana          200                                                [ mA] 
+vdd_DVDD_LP      1.15                                               [  V] 
+idd_DVDD_LP      200                                                [ mA] 
+vdd_vcc_ana      3.6                                                [  V] 
+idd_vcc_ana      200                                                [ mA] 
+vdd_dig          3.6                                                [  V] 
+idd_dig          200                                                [ mA] 
+vdd_bat_rtc      3.6                                                [  V] 
+idd_bat_rtc      200                                                [ mA] 
+vdd_analog       3.6                                                [  V] 
+idd_analog       200                                                [ mA] 
+vdd_pvdd         3.6                                                [  V] 
+idd_pvdd         200                                                [ mA] 
+vdd_avd          3.6                                                [  V] 
+idd_avd          200                                                [ mA] 
+vdd_DVD          1.15                                               [  V] 
+idd_DVD          200                                                [ mA] 
+vrst             2.7                                                [  V] 
+vmcldo           2                                                  [  V] 
+f_vil            0.1                                                [   ] 
+f_vih            0.9                                                [   ] 
+f_vol            0.4                                                [   ] 
+f_voh            0.9                                                [   ] 
+f_vt             0.5                                                [   ] 
+iol_func         8                                                  [ mA] 
+ioh_func         8                                                  [ mA] 
+vil_default      0                                                  [  V] 
+vih_default      0.1                                                [  V] 
+vol_default      0                                                  [  V] 
+voh_default      0.1                                                [  V] 
+vt_default       0                                                  [  V] 
+iol_default      0.1                                                [ mA] 
+ioh_default      0.1                                                [ mA] 
+vil_trigger      -0.95                                              [  V] 
+vih_trigger      1                                                  [  V] 
+vol_trigger      0                                                  [  V] 
+voh_trigger      1                                                  [  V] 
+iol_trigger      0.1                                                [ mA] 
+ioh_trigger      0.1                                                [ mA] 
+vt_trigger       0.75                                               [  V] 
+
+
+
+SPECSET 4 "Level_Max"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+vdd_boost        3.93                                               [  V] 
+idd_boost        200                                                [ mA] 
+vdd_bbst_sw      3.63                                               [  V] 
+idd_bbst_sw      200                                                [ mA] 
+vdd_bat          3.63                                               [  V] 
+idd_bat          200                                                [ mA] 
+vdd_ana          3.63                                               [  V] 
+idd_ana          200                                                [ mA] 
+vdd_DVDD_LP      1.15                                               [  V] 
+idd_DVDD_LP      200                                                [ mA] 
+vdd_vcc_ana      3.63                                               [  V] 
+idd_vcc_ana      200                                                [ mA] 
+vdd_dig          3.63                                               [  V] 
+idd_dig          200                                                [ mA] 
+vdd_bat_rtc      3.63                                               [  V] 
+idd_bat_rtc      200                                                [ mA] 
+vdd_analog       3.63                                               [  V] 
+idd_analog       200                                                [ mA] 
+vdd_pvdd         3.63                                               [  V] 
+idd_pvdd         200                                                [ mA] 
+vdd_avd          3.63                                               [  V] 
+idd_avd          200                                                [ mA] 
+vdd_DVD          1.15                                               [  V] 
+idd_DVD          200                                                [ mA] 
+vrst             2.7                                                [  V] 
+vmcldo           2                                                  [  V] 
+f_vil            0.2                                                [   ] 
+f_vih            0.8                                                [   ] 
+f_vol            0.3                                                [   ] 
+f_voh            0.6                                                [   ] 
+f_vt             0.5                                                [   ] 
+iol_func         8                                                  [ mA] 
+ioh_func         8                                                  [ mA] 
+vil_default      0                                                  [  V] 
+vih_default      0.1                                                [  V] 
+vol_default      0                                                  [  V] 
+voh_default      0.1                                                [  V] 
+vt_default       0                                                  [  V] 
+iol_default      0.1                                                [ mA] 
+ioh_default      0.1                                                [ mA] 
+vil_trigger      -0.95                                              [  V] 
+vih_trigger      1                                                  [  V] 
+vol_trigger      0                                                  [  V] 
+voh_trigger      1                                                  [  V] 
+iol_trigger      0.1                                                [ mA] 
+ioh_trigger      0.1                                                [ mA] 
+vt_trigger       0.75                                               [  V] 
+
+
+
+SPECSET 5 "Level_Min"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+vdd_boost        3.27                                               [  V] 
+idd_boost        200                                                [ mA] 
+vdd_bbst_sw      2.97                                               [  V] 
+idd_bbst_sw      200                                                [ mA] 
+vdd_bat          2.97                                               [  V] 
+idd_bat          200                                                [ mA] 
+vdd_ana          2.97                                               [  V] 
+idd_ana          200                                                [ mA] 
+vdd_DVDD_LP      1.15                                               [  V] 
+idd_DVDD_LP      200                                                [ mA] 
+vdd_vcc_ana      2.97                                               [  V] 
+idd_vcc_ana      200                                                [ mA] 
+vdd_dig          2.97                                               [  V] 
+idd_dig          200                                                [ mA] 
+vdd_bat_rtc      2.97                                               [  V] 
+idd_bat_rtc      200                                                [ mA] 
+vdd_analog       2.97                                               [  V] 
+idd_analog       200                                                [ mA] 
+vdd_pvdd         2.97                                               [  V] 
+idd_pvdd         200                                                [ mA] 
+vdd_avd          2.97                                               [  V] 
+idd_avd          200                                                [ mA] 
+vdd_DVD          1.15                                               [  V] 
+idd_DVD          200                                                [ mA] 
+vrst             2.7                                                [  V] 
+vmcldo           2                                                  [  V] 
+f_vil            0.2                                                [   ] 
+f_vih            0.8                                                [   ] 
+f_vol            0.3                                                [   ] 
+f_voh            0.6                                                [   ] 
+f_vt             0.5                                                [   ] 
+iol_func         8                                                  [ mA] 
+ioh_func         8                                                  [ mA] 
+vil_default      0                                                  [  V] 
+vih_default      0.1                                                [  V] 
+vol_default      0                                                  [  V] 
+voh_default      0.1                                                [  V] 
+vt_default       0                                                  [  V] 
+iol_default      0.1                                                [ mA] 
+ioh_default      0.1                                                [ mA] 
+vil_trigger      -0.95                                              [  V] 
+vih_trigger      1                                                  [  V] 
+vol_trigger      0                                                  [  V] 
+voh_trigger      1                                                  [  V] 
+iol_trigger      0.1                                                [ mA] 
+ioh_trigger      0.1                                                [ mA] 
+vt_trigger       0.75                                               [  V] 
+
+
+
+SPECSET 6 "FuncLS_TMU"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+vil_trigger      -0.95                                              [  V] 
+vih_trigger      1                                                  [  V] 
+vol_trigger      0                                                  [  V] 
+voh_trigger      1                                                  [  V] 
+iol_trigger      0.1                                                [ mA] 
+ioh_trigger      0.1                                                [ mA] 
+vt_trigger       0.75                                               [  V] 
+vdd_DVDD_LP      1.15                                               [  V] 
+idd_DVDD_LP      200                                                [ mA] 
+vdd_DVD          1.15                                               [  V] 
+idd_DVD          200                                                [ mA] 
+vdd_boost        3.6                                                [  V] 
+idd_boost        200                                                [ mA] 
+vdd_bbst_sw      3.3                                                [  V] 
+idd_bbst_sw      200                                                [ mA] 
+vdd_bat          3                                                  [  V] 
+idd_bat          200                                                [ mA] 
+vdd_ana          3.3                                                [  V] 
+idd_ana          200                                                [ mA] 
+vdd_vcc_ana      3.3                                                [  V] 
+idd_vcc_ana      200                                                [ mA] 
+vdd_dig          3.3                                                [  V] 
+idd_dig          200                                                [ mA] 
+vdd_bat_rtc      3                                                  [  V] 
+idd_bat_rtc      200                                                [ mA] 
+vdd_analog       3.3                                                [  V] 
+idd_analog       200                                                [ mA] 
+vdd_pvdd         3.3                                                [  V] 
+idd_pvdd         200                                                [ mA] 
+vdd_avd          3.3                                                [  V] 
+idd_avd          200                                                [ mA] 
+vrst             2.7                                                [  V] 
+vmcldo           2                                                  [  V] 
+f_vil            0.1                                                [   ] 
+f_vih            0.9                                                [   ] 
+f_vol            0.5                                                [   ] 
+f_voh            0.5                                                [   ] 
+f_vt             0.5                                                [   ] 
+iol_func         8                                                  [ mA] 
+ioh_func         8                                                  [ mA] 
+vil_default      0                                                  [  V] 
+vih_default      0.1                                                [  V] 
+vol_default      0                                                  [  V] 
+voh_default      0.1                                                [  V] 
+vt_default       0                                                  [  V] 
+iol_default      0.1                                                [ mA] 
+ioh_default      0.1                                                [ mA] 
+
+EQNSET 3 "Eq_Func_LCD"
+
+
+
+SPECSET 1 "FuncLS_LCD_1_3_VL1_2"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+vil_lcd          0                                                  [  V] 
+vih_lcd          2                                                  [  V] 
+vol_lcd          0.25                                               [  V] 
+voh_lcd          0.75                                               [  V] 
+iol_lcd          0.1                                                [ mA] 
+ioh_lcd          0.1                                                [ mA] 
+vt_lcd           0.75                                               [  V] 
+vil_trigger      -0.95                                              [  V] 
+vih_trigger      1                                                  [  V] 
+vol_trigger      0                                                  [  V] 
+voh_trigger      1                                                  [  V] 
+iol_trigger      0.1                                                [ mA] 
+ioh_trigger      0.1                                                [ mA] 
+vt_trigger       0.75                                               [  V] 
+vdd_DVDD_LP      1.15                                               [  V] 
+idd_DVDD_LP      200                                                [ mA] 
+vdd_DVD          1.15                                               [  V] 
+idd_DVD          200                                                [ mA] 
+vdd_boost        3.6                                                [  V] 
+idd_boost        200                                                [ mA] 
+vdd_bbst_sw      3.3                                                [  V] 
+idd_bbst_sw      200                                                [ mA] 
+vdd_bat          3                                                  [  V] 
+idd_bat          200                                                [ mA] 
+vdd_ana          3.3                                                [  V] 
+idd_ana          200                                                [ mA] 
+vdd_vcc_ana      3.3                                                [  V] 
+idd_vcc_ana      200                                                [ mA] 
+vdd_dig          3.3                                                [  V] 
+idd_dig          200                                                [ mA] 
+vdd_bat_rtc      3                                                  [  V] 
+idd_bat_rtc      200                                                [ mA] 
+vdd_analog       3.3                                                [  V] 
+idd_analog       200                                                [ mA] 
+vdd_pvdd         3.3                                                [  V] 
+idd_pvdd         200                                                [ mA] 
+vdd_avd          3.3                                                [  V] 
+idd_avd          200                                                [ mA] 
+vrst             2.7                                                [  V] 
+vmcldo           2                                                  [  V] 
+f_vil            0.1                                                [   ] 
+f_vih            0.9                                                [   ] 
+f_vol            0.2                                                [   ] 
+f_voh            0.8                                                [   ] 
+f_vt             0.5                                                [   ] 
+iol_func         8                                                  [ mA] 
+ioh_func         8                                                  [ mA] 
+vil_default      0                                                  [  V] 
+vih_default      0.1                                                [  V] 
+vol_default      0                                                  [  V] 
+voh_default      0.1                                                [  V] 
+vt_default       0                                                  [  V] 
+iol_default      0.1                                                [ mA] 
+ioh_default      0.1                                                [ mA] 
+
+
+
+SPECSET 2 "FuncLS_LCD_1_3_VL1_4"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+vil_lcd          0                                                  [  V] 
+vih_lcd          2                                                  [  V] 
+vol_lcd          0.25                                               [  V] 
+voh_lcd          1.25                                               [  V] 
+iol_lcd          0.1                                                [ mA] 
+ioh_lcd          0.1                                                [ mA] 
+vt_lcd           0.75                                               [  V] 
+vil_trigger      -0.95                                              [  V] 
+vih_trigger      1                                                  [  V] 
+vol_trigger      0                                                  [  V] 
+voh_trigger      1                                                  [  V] 
+iol_trigger      0.1                                                [ mA] 
+ioh_trigger      0.1                                                [ mA] 
+vt_trigger       0.75                                               [  V] 
+vdd_DVDD_LP      1.15                                               [  V] 
+idd_DVDD_LP      200                                                [ mA] 
+vdd_DVD          1.15                                               [  V] 
+idd_DVD          200                                                [ mA] 
+vdd_boost        3.6                                                [  V] 
+idd_boost        200                                                [ mA] 
+vdd_bbst_sw      3.3                                                [  V] 
+idd_bbst_sw      200                                                [ mA] 
+vdd_bat          3                                                  [  V] 
+idd_bat          200                                                [ mA] 
+vdd_ana          3.3                                                [  V] 
+idd_ana          200                                                [ mA] 
+vdd_vcc_ana      3.3                                                [  V] 
+idd_vcc_ana      200                                                [ mA] 
+vdd_dig          3.3                                                [  V] 
+idd_dig          200                                                [ mA] 
+vdd_bat_rtc      3                                                  [  V] 
+idd_bat_rtc      200                                                [ mA] 
+vdd_analog       3.3                                                [  V] 
+idd_analog       200                                                [ mA] 
+vdd_pvdd         3.3                                                [  V] 
+idd_pvdd         200                                                [ mA] 
+vdd_avd          3.3                                                [  V] 
+idd_avd          200                                                [ mA] 
+vrst             2.7                                                [  V] 
+vmcldo           2                                                  [  V] 
+f_vil            0.1                                                [   ] 
+f_vih            0.9                                                [   ] 
+f_vol            0.2                                                [   ] 
+f_voh            0.8                                                [   ] 
+f_vt             0.5                                                [   ] 
+iol_func         8                                                  [ mA] 
+ioh_func         8                                                  [ mA] 
+vil_default      0                                                  [  V] 
+vih_default      0.1                                                [  V] 
+vol_default      0                                                  [  V] 
+voh_default      0.1                                                [  V] 
+vt_default       0                                                  [  V] 
+iol_default      0.1                                                [ mA] 
+ioh_default      0.1                                                [ mA] 
+
+
+
+SPECSET 3 "FuncLS_LCD_1_4_VL1_3"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+vil_lcd          0                                                  [  V] 
+vih_lcd          2                                                  [  V] 
+vol_lcd          0.25                                               [  V] 
+voh_lcd          1.25                                               [  V] 
+iol_lcd          0.1                                                [ mA] 
+ioh_lcd          0.1                                                [ mA] 
+vt_lcd           0.75                                               [  V] 
+vil_trigger      -0.95                                              [  V] 
+vih_trigger      1                                                  [  V] 
+vol_trigger      0                                                  [  V] 
+voh_trigger      1                                                  [  V] 
+iol_trigger      0.1                                                [ mA] 
+ioh_trigger      0.1                                                [ mA] 
+vt_trigger       0.75                                               [  V] 
+vdd_DVDD_LP      1.15                                               [  V] 
+idd_DVDD_LP      200                                                [ mA] 
+vdd_DVD          1.15                                               [  V] 
+idd_DVD          200                                                [ mA] 
+vdd_boost        3.6                                                [  V] 
+idd_boost        200                                                [ mA] 
+vdd_bbst_sw      3.3                                                [  V] 
+idd_bbst_sw      200                                                [ mA] 
+vdd_bat          3                                                  [  V] 
+idd_bat          200                                                [ mA] 
+vdd_ana          3.3                                                [  V] 
+idd_ana          200                                                [ mA] 
+vdd_vcc_ana      3.3                                                [  V] 
+idd_vcc_ana      200                                                [ mA] 
+vdd_dig          3.3                                                [  V] 
+idd_dig          200                                                [ mA] 
+vdd_bat_rtc      3                                                  [  V] 
+idd_bat_rtc      200                                                [ mA] 
+vdd_analog       3.3                                                [  V] 
+idd_analog       200                                                [ mA] 
+vdd_pvdd         3.3                                                [  V] 
+idd_pvdd         200                                                [ mA] 
+vdd_avd          3.3                                                [  V] 
+idd_avd          200                                                [ mA] 
+vrst             2.7                                                [  V] 
+vmcldo           2                                                  [  V] 
+f_vil            0.1                                                [   ] 
+f_vih            0.9                                                [   ] 
+f_vol            0.2                                                [   ] 
+f_voh            0.8                                                [   ] 
+f_vt             0.5                                                [   ] 
+iol_func         8                                                  [ mA] 
+ioh_func         8                                                  [ mA] 
+vil_default      0                                                  [  V] 
+vih_default      0.1                                                [  V] 
+vol_default      0                                                  [  V] 
+voh_default      0.1                                                [  V] 
+vt_default       0                                                  [  V] 
+iol_default      0.1                                                [ mA] 
+ioh_default      0.1                                                [ mA] 
+
+
+
+SPECSET 4 "FuncLS_LCD_1_4_VL1_4"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+vil_lcd          0                                                  [  V] 
+vih_lcd          2                                                  [  V] 
+vol_lcd          0.25                                               [  V] 
+voh_lcd          3.45                                               [  V] 
+iol_lcd          0.1                                                [ mA] 
+ioh_lcd          0.1                                                [ mA] 
+vt_lcd           0.75                                               [  V] 
+vil_trigger      -0.95                                              [  V] 
+vih_trigger      1                                                  [  V] 
+vol_trigger      0                                                  [  V] 
+voh_trigger      1                                                  [  V] 
+iol_trigger      0.1                                                [ mA] 
+ioh_trigger      0.1                                                [ mA] 
+vt_trigger       0.75                                               [  V] 
+vdd_DVDD_LP      1.15                                               [  V] 
+idd_DVDD_LP      200                                                [ mA] 
+vdd_DVD          1.15                                               [  V] 
+idd_DVD          200                                                [ mA] 
+vdd_boost        3.6                                                [  V] 
+idd_boost        200                                                [ mA] 
+vdd_bbst_sw      3.3                                                [  V] 
+idd_bbst_sw      200                                                [ mA] 
+vdd_bat          3                                                  [  V] 
+idd_bat          200                                                [ mA] 
+vdd_ana          3.3                                                [  V] 
+idd_ana          200                                                [ mA] 
+vdd_vcc_ana      3.3                                                [  V] 
+idd_vcc_ana      200                                                [ mA] 
+vdd_dig          3.3                                                [  V] 
+idd_dig          200                                                [ mA] 
+vdd_bat_rtc      3                                                  [  V] 
+idd_bat_rtc      200                                                [ mA] 
+vdd_analog       3.3                                                [  V] 
+idd_analog       200                                                [ mA] 
+vdd_pvdd         3.3                                                [  V] 
+idd_pvdd         200                                                [ mA] 
+vdd_avd          3.3                                                [  V] 
+idd_avd          200                                                [ mA] 
+vrst             2.7                                                [  V] 
+vmcldo           2                                                  [  V] 
+f_vil            0.1                                                [   ] 
+f_vih            0.9                                                [   ] 
+f_vol            0.2                                                [   ] 
+f_voh            0.8                                                [   ] 
+f_vt             0.5                                                [   ] 
+iol_func         8                                                  [ mA] 
+ioh_func         8                                                  [ mA] 
+vil_default      0                                                  [  V] 
+vih_default      0.1                                                [  V] 
+vol_default      0                                                  [  V] 
+voh_default      0.1                                                [  V] 
+vt_default       0                                                  [  V] 
+iol_default      0.1                                                [ mA] 
+ioh_default      0.1                                                [ mA] 
+
+EQNSET 4 "Himp_Func"
+
+
+
+SPECSET 1 "Vboost vbat himp"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+vdd_boost        3.6                                                [  V] 
+idd_boost        200                                                [ mA] 
+vdd_bbst_sw      3.3                                                [  V] 
+idd_bbst_sw      200                                                [ mA] 
+vdd_bat          3                                                  [  V] 
+idd_bat          200                                                [ mA] 
+vdd_ana          3.3                                                [  V] 
+idd_ana          200                                                [ mA] 
+vdd_DVDD_LP      1.15                                               [  V] 
+idd_DVDD_LP      200                                                [ mA] 
+vdd_vcc_ana      3.3                                                [  V] 
+idd_vcc_ana      200                                                [ mA] 
+vdd_dig          3.3                                                [  V] 
+idd_dig          200                                                [ mA] 
+vdd_bat_rtc      3                                                  [  V] 
+idd_bat_rtc      200                                                [ mA] 
+vdd_analog       3.3                                                [  V] 
+idd_analog       200                                                [ mA] 
+vdd_pvdd         3.3                                                [  V] 
+idd_pvdd         200                                                [ mA] 
+vdd_avd          3.3                                                [  V] 
+idd_avd          200                                                [ mA] 
+vdd_DVD          1.15                                               [  V] 
+idd_DVD          200                                                [ mA] 
+vrst             2.7                                                [  V] 
+vmcldo           2                                                  [  V] 
+f_vil            0.1                                                [   ] 
+f_vih            0.9                                                [   ] 
+f_vol            0.2                                                [   ] 
+f_voh            0.8                                                [   ] 
+f_vt             0.5                                                [   ] 
+iol_func         8                                                  [ mA] 
+ioh_func         8                                                  [ mA] 
+vil_default      0                                                  [  V] 
+vih_default      0.1                                                [  V] 
+vol_default      0                                                  [  V] 
+voh_default      0.1                                                [  V] 
+vt_default       0                                                  [  V] 
+iol_default      0.1                                                [ mA] 
+ioh_default      0.1                                                [ mA] 
+vil_trigger      -0.95                                              [  V] 
+vih_trigger      1                                                  [  V] 
+vol_trigger      0                                                  [  V] 
+voh_trigger      1                                                  [  V] 
+iol_trigger      0.1                                                [ mA] 
+ioh_trigger      0.1                                                [ mA] 
+vt_trigger       0.75                                               [  V] 
+
+EQNSET 5 "Himp_VCC"
+
+
+
+SPECSET 1 "Vboost_himp"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+vdd_boost        0                                                  [  V] 
+idd_boost        200                                                [ mA] 
+vdd_bbst_sw      3.3                                                [  V] 
+idd_bbst_sw      200                                                [ mA] 
+vdd_bat          3                                                  [  V] 
+idd_bat          200                                                [ mA] 
+vdd_ana          3.3                                                [  V] 
+idd_ana          200                                                [ mA] 
+vdd_DVDD_LP      1.15                                               [  V] 
+idd_DVDD_LP      200                                                [ mA] 
+vdd_vcc_ana      3.3                                                [  V] 
+idd_vcc_ana      200                                                [ mA] 
+vdd_dig          3.3                                                [  V] 
+idd_dig          200                                                [ mA] 
+vdd_bat_rtc      3                                                  [  V] 
+idd_bat_rtc      200                                                [ mA] 
+vdd_analog       3.3                                                [  V] 
+idd_analog       200                                                [ mA] 
+vdd_pvdd         3.3                                                [  V] 
+idd_pvdd         200                                                [ mA] 
+vdd_avd          3.3                                                [  V] 
+idd_avd          200                                                [ mA] 
+vdd_DVD          1.15                                               [  V] 
+idd_DVD          200                                                [ mA] 
+vrst             2.7                                                [  V] 
+vmcldo           2                                                  [  V] 
+f_vil            0.1                                                [   ] 
+f_vih            0.9                                                [   ] 
+f_vol            0.2                                                [   ] 
+f_voh            0.8                                                [   ] 
+f_vt             0.5                                                [   ] 
+iol_func         8                                                  [ mA] 
+ioh_func         8                                                  [ mA] 
+vil_default      0                                                  [  V] 
+vih_default      0.1                                                [  V] 
+vol_default      0                                                  [  V] 
+voh_default      0.1                                                [  V] 
+vt_default       0                                                  [  V] 
+iol_default      0.1                                                [ mA] 
+ioh_default      0.1                                                [ mA] 
+vil_trigger      -0.95                                              [  V] 
+vih_trigger      1                                                  [  V] 
+vol_trigger      0                                                  [  V] 
+voh_trigger      1                                                  [  V] 
+iol_trigger      0.1                                                [ mA] 
+ioh_trigger      0.1                                                [ mA] 
+vt_trigger       0.75                                               [  V] 
+
+
+
+SPECSET 2 "Vboost_himp_Vana_2p4V"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+vdd_boost        0                                                  [  V] 
+idd_boost        200                                                [ mA] 
+vdd_bbst_sw      3.3                                                [  V] 
+idd_bbst_sw      200                                                [ mA] 
+vdd_bat          2.5                                                [  V] 
+idd_bat          200                                                [ mA] 
+vdd_ana          2.4                                                [  V] 
+idd_ana          200                                                [ mA] 
+vdd_DVDD_LP      1.15                                               [  V] 
+idd_DVDD_LP      200                                                [ mA] 
+vdd_vcc_ana      3.3                                                [  V] 
+idd_vcc_ana      200                                                [ mA] 
+vdd_dig          3.3                                                [  V] 
+idd_dig          200                                                [ mA] 
+vdd_bat_rtc      3                                                  [  V] 
+idd_bat_rtc      200                                                [ mA] 
+vdd_analog       3.3                                                [  V] 
+idd_analog       200                                                [ mA] 
+vdd_pvdd         3.3                                                [  V] 
+idd_pvdd         200                                                [ mA] 
+vdd_avd          3.3                                                [  V] 
+idd_avd          200                                                [ mA] 
+vdd_DVD          1.15                                               [  V] 
+idd_DVD          200                                                [ mA] 
+vrst             2.7                                                [  V] 
+vmcldo           2                                                  [  V] 
+f_vil            0.1                                                [   ] 
+f_vih            0.9                                                [   ] 
+f_vol            0.2                                                [   ] 
+f_voh            0.6                                                [   ] 
+f_vt             0.5                                                [   ] 
+iol_func         8                                                  [ mA] 
+ioh_func         8                                                  [ mA] 
+vil_default      0                                                  [  V] 
+vih_default      0.1                                                [  V] 
+vol_default      0                                                  [  V] 
+voh_default      0.1                                                [  V] 
+vt_default       0                                                  [  V] 
+iol_default      0.1                                                [ mA] 
+ioh_default      0.1                                                [ mA] 
+vil_trigger      -0.95                                              [  V] 
+vih_trigger      1                                                  [  V] 
+vol_trigger      0                                                  [  V] 
+voh_trigger      1                                                  [  V] 
+iol_trigger      0.1                                                [ mA] 
+ioh_trigger      0.1                                                [ mA] 
+vt_trigger       0.75                                               [  V] 
+@
+NOOP "7.6.2",,,

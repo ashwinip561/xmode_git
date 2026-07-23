@@ -1,0 +1,34 @@
+hp93000,timing_master_file,0.1
+#this is a comment
+
+testerfile : Timing_org
+
+EQNSET 1: eqnset_01.tim
+EQNSET 10: eqnset_10.tim
+EQNSET 11: eqnset_11.tim
+EQNSET 2: eqnset_02.tim
+EQNSET 3: eqnset_03.tim
+EQNSET 4: eqnset_04.tim
+EQNSET 5: eqnset_05.tim
+EQNSET 6: eqnset_06.tim
+EQNSET 7: eqnset_07.tim
+EQNSET 8: eqnset_08.tim
+EQNSET 9: eqnset_09.tim
+WAVETABLE RF_TRIG: wvt_RF_TRIG.tim
+WAVETABLE RF_TRIG2: wvt_RF_TRIG2.tim
+WAVETABLE wsg_JTAG: wvt_wsg_JTAG.tim
+WAVETABLE wsg_SPI: wvt_wsg_SPI.tim
+WAVETABLE wsg_XTAL_32KHz: wvt_wsg_XTAL_32KHz.tim
+WAVETABLE wsg_XTAL_32MHz: wvt_wsg_XTAL_32MHz.tim
+WAVETABLE wsg_bscan: wvt_wsg_bscan.tim
+WAVETABLE wsg_cont: wvt_wsg_cont.tim
+WAVETABLE wsg_main: wvt_wsg_main.tim
+WAVETABLE wsg_main2: wvt_wsg_main2.tim
+WAVETABLE wsg_main_lvl: wvt_wsg_main_lvl.tim
+WAVETABLE wsg_scan: wvt_wsg_scan.tim
+WAVETABLE wsg_scan_mp: wvt_wsg_scan_mp.tim
+MULTIPORT_SPEC "func_rf_spec": mport_func_rf_spec.tim
+MULTIPORT_SPEC "func_rf_spec2": mport_func_rf_spec2.tim
+MULTIPORT_SPEC "func_spec_default": mport_func_spec_default.tim
+MULTIPORT_SPEC "func_spec_level": mport_func_spec_level.tim
+MULTIPORT_SPEC "scan_tim": mport_scan_tim.tim

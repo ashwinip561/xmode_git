@@ -1,0 +1,45 @@
+hp93000,timing,0.1
+EQSP TIM,EQN,#9000000275
+EQNSET 1 Eq_func_cont
+
+SPECS
+
+#SPECNAME 			UNIT
+cont_per 			[ns]
+cont_default_rdrv               []
+cont_default_rstr               []
+
+
+TIMINGSET 1 "func_cont:wsg_cont"
+
+period = cont_per
+
+
+PINS ALLPINS 
+
+d1= cont_default_rdrv*cont_per 
+r1= cont_default_rstr *cont_per
+
+
+
+@
+
+
+
+EQSP TIM,SPS,#9000000394
+EQNSET 1 Eq_func_cont
+WAVETBL "wsg_cont"
+
+CHECK all
+
+SPECSET 1 "Func_conti_spec"
+
+
+# SPECNAME       *****ACTUAL***** *****MINIMUM**** *****MAXIMUM**** UNITS COMMENT
+cont_default_rdrv 0.1                                                [   ] 
+cont_default_rstr 0.9                                                [   ] 
+cont_per         500                                                [ ns]
+
+@
+
+NOOP "7.6.2",,,

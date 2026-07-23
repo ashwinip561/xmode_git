@@ -1,0 +1,24 @@
+hp93000,timing,0.1
+EQSP TIM,WVT,#9000000225
+WAVETBL wsg_XTAL_32MHz
+
+DEFINES XTAL_32MHz 
+
+PINS XIN XOUT
+
+0	"d1:F00 d2:F0N"	0
+1	"d1:F10 d2:F0N"	1
+2	"d1:F0Z d2:F0N"	Z
+brk "d1:F10 d2:F0N"	#running clock 32MHz
+
+STATEMAP
+
+#PhxSeq # StateChar xmode
+0	0	x1
+1	1   x1
+2	Z	x1
+
+
+@
+
+NOOP "7.6.2",,,

@@ -1,0 +1,49 @@
+hp93000,timing,0.1
+EQSP TIM,EQN,#9000000589
+EQNSET 5 Eq_wsg_main
+
+DEFINES MAIN_PORT
+
+SPECS
+
+#SPECNAME 			UNIT
+per 			[ns]
+clk_rdrv		[]
+default_rdrv	[]
+clk_rstr		[]
+default_rstr	[]
+clk_dc			[]
+tmu_arm			[]
+#default_dc	[]
+
+
+TIMINGSET 1 "main_wsg:ws_main"
+
+period = per
+
+
+PINS  ALL_WO_XTAL -(  TCK_GPIO55  SPI_CLK_UART2_TX SEG5_GPIO16 ATST0_GPIO0 ) # except CLK and TMU pins
+
+d1=default_rdrv* per 
+r1=default_rstr* per
+
+ 
+PINS TCK_GPIO55  SPI_CLK_UART2_TX   #CLK Pins
+
+d1= clk_rdrv* per 
+d2=(clk_rdrv+clk_dc)*per
+r1=clk_rstr* per
+
+
+PINS  SEG5_GPIO16 ATST0_GPIO0  #TMU pin
+
+d1=default_rdrv* per 
+r1=default_rstr* per
+r7=tmu_arm* per
+
+
+@
+
+
+
+NOOP "7.6.2",,,
