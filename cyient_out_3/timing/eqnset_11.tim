@@ -1,0 +1,420 @@
+hp93000,timing,0.1
+EQSP TIM,EQN,#900003780
+EQNSET 11 "Equation set 11"
+DEFINES MAIN_PORT
+SPECS
+tper     [ns]
+scan_clk_rdrv     [ns]
+scan_clk_dc     [ns]
+scan_clk_rstr     [ns]
+scan_default_rdrv     [ns]
+scan_default_rstr     [ns]
+TIMINGSET 1 ws_scan
+period = (4 * tper)
+PINS AIN0_GPIO3
+d1 = (scan_default_rdrv * tper)
+PINS AIN1_GPIO4
+d1 = (scan_default_rdrv * tper)
+PINS AIN2_GPIO5
+d1 = (scan_default_rdrv * tper)
+PINS AIN3_GPIO6
+d1 = (scan_default_rdrv * tper)
+PINS ANT
+d1 = (scan_default_rdrv * tper)
+PINS AON0
+d1 = (scan_default_rdrv * tper)
+PINS AON1
+d1 = (scan_default_rdrv * tper)
+PINS AON2
+d1 = (scan_default_rdrv * tper)
+PINS AON3
+d1 = (scan_default_rdrv * tper)
+PINS AONIRQ
+d1 = (scan_default_rdrv * tper)
+PINS ATST0_GPIO0
+d1 = (scan_default_rdrv * tper)
+PINS ATST1_GPIO1
+d1 = (scan_default_rdrv * tper)
+PINS ATST2_GPIO2
+d1 = (scan_default_rdrv * tper)
+PINS ATST2_GPIO2_1
+d1 = (scan_default_rdrv * tper)
+PINS ATST2_GPIO2_2
+d1 = (scan_default_rdrv * tper)
+PINS BBST_SW
+d1 = (scan_default_rdrv * tper)
+PINS CAPH
+d1 = (scan_default_rdrv * tper)
+PINS CAPL
+d1 = (scan_default_rdrv * tper)
+PINS COM0_GPIO7
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (1 * tper))
+PINS COM1_GPIO8
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (2 * tper))
+PINS COM2_GPIO9
+d1 = (scan_clk_rdrv * tper)
+d2 = ((scan_clk_rdrv + scan_clk_dc) * tper)
+d3 = (scan_clk_rdrv * tper + (1 * tper))
+d4 = ((scan_clk_rdrv + scan_clk_dc) * tper + (1 * tper))
+d5 = (scan_clk_rdrv * tper + (2 * tper))
+d6 = ((scan_clk_rdrv + scan_clk_dc) * tper + (2 * tper))
+d7 = (scan_clk_rdrv * tper + (3 * tper))
+d8 = ((scan_clk_rdrv + scan_clk_dc) * tper + (3 * tper))
+PINS COM3_GPIO10
+d1 = (scan_clk_rdrv * tper)
+d2 = (scan_clk_rdrv * tper + (1 * tper))
+PINS COM4_SEG0_GPIO11
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (1 * tper))
+PINS COM5_SEG1_GPIO12
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (1 * tper))
+PINS COM6_SEG2_GPIO13
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (1 * tper))
+PINS COM7_SEG3_GPIO14
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (1 * tper))
+PINS DVD
+d1 = (scan_default_rdrv * tper)
+PINS DVD1
+d1 = (scan_default_rdrv * tper)
+PINS DVD2
+d1 = (scan_default_rdrv * tper)
+PINS DVDD_LP
+d1 = (scan_default_rdrv * tper)
+PINS EXLVD
+d1 = (scan_default_rdrv * tper)
+PINS GPIO64
+d1 = (scan_default_rdrv * tper)
+PINS GPIO66
+d1 = (scan_default_rdrv * tper)
+PINS GPIO67
+d1 = (scan_default_rdrv * tper)
+PINS I2C0_SCL_GPIO62
+d1 = (scan_default_rdrv * tper)
+PINS I2C0_SDA_GPIO63
+d1 = (scan_default_rdrv * tper)
+PINS I2C1_SCL_GPIO60
+d1 = (scan_default_rdrv * tper)
+PINS I2C1_SDA_GPIO61
+d1 = (scan_default_rdrv * tper)
+PINS IN1
+d1 = (scan_default_rdrv * tper)
+PINS IN2
+d1 = (scan_default_rdrv * tper)
+PINS IN3
+d1 = (scan_default_rdrv * tper)
+PINS IP1
+d1 = (scan_default_rdrv * tper)
+PINS IP2
+d1 = (scan_default_rdrv * tper)
+PINS IP3
+d1 = (scan_default_rdrv * tper)
+PINS LNA_EN
+d1 = (scan_default_rdrv * tper)
+PINS LNA_HGM
+d1 = (scan_default_rdrv * tper)
+PINS MCE_Trigger_AWG
+d1 = (scan_default_rdrv * tper)
+PINS MCE_Trigger_AWG_S2
+d1 = (scan_default_rdrv * tper)
+PINS MCE_Trigger_DIG
+d1 = (scan_default_rdrv * tper)
+PINS PA_EN
+d1 = (scan_default_rdrv * tper)
+PINS PVDD
+d1 = (scan_default_rdrv * tper)
+PINS RBIAS
+d1 = (scan_default_rdrv * tper)
+PINS RESET_N
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (1 * tper))
+PINS RF_RX_N
+d1 = (scan_default_rdrv * tper)
+PINS RF_RX_P
+d1 = (scan_default_rdrv * tper)
+PINS RF_TX
+d1 = (scan_default_rdrv * tper)
+PINS RTCOUT_GPIO65
+d1 = (scan_default_rdrv * tper)
+PINS SEG10_GPIO21
+d1 = (scan_default_rdrv * tper)
+PINS SEG11_GPIO22
+d1 = (scan_default_rdrv * tper)
+r1 = (scan_default_rstr * tper)
+r2 = (scan_default_rstr * tper + (1 * tper))
+r3 = (scan_default_rstr * tper + (2 * tper))
+r4 = (scan_default_rstr * tper + (3 * tper))
+PINS SEG12_GPIO23
+d1 = (scan_default_rdrv * tper)
+PINS SEG13_GPIO24
+d1 = (scan_default_rdrv * tper)
+r1 = (scan_default_rstr * tper)
+r2 = (scan_default_rstr * tper + (1 * tper))
+r3 = (scan_default_rstr * tper + (2 * tper))
+r4 = (scan_default_rstr * tper + (3 * tper))
+PINS SEG14_GPIO25
+d1 = (scan_default_rdrv * tper)
+PINS SEG15_GPIO26_DTST0
+d1 = (scan_default_rdrv * tper)
+PINS SEG16_GPIO27_DTST1
+d1 = (scan_default_rdrv * tper)
+r1 = (scan_default_rstr * tper)
+r2 = (scan_default_rstr * tper + (1 * tper))
+r3 = (scan_default_rstr * tper + (2 * tper))
+r4 = (scan_default_rstr * tper + (3 * tper))
+PINS SEG17_GPIO28_DTST2
+d1 = (scan_default_rdrv * tper)
+PINS SEG18_GPIO29_DTST3
+d1 = (scan_default_rdrv * tper)
+r1 = (scan_default_rstr * tper)
+r2 = (scan_default_rstr * tper + (1 * tper))
+r3 = (scan_default_rstr * tper + (2 * tper))
+r4 = (scan_default_rstr * tper + (3 * tper))
+PINS SEG19_GPIO30_DTST4
+d1 = (scan_default_rdrv * tper)
+r1 = (scan_default_rstr * tper)
+r2 = (scan_default_rstr * tper + (1 * tper))
+r3 = (scan_default_rstr * tper + (2 * tper))
+r4 = (scan_default_rstr * tper + (3 * tper))
+PINS SEG20_GPIO31_DTST5
+d1 = (scan_default_rdrv * tper)
+PINS SEG21_GPIO32_DTST6
+d1 = (scan_default_rdrv * tper)
+PINS SEG22_GPIO33_DTST7
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (2 * tper))
+d3 = (scan_default_rdrv * tper + (1 * tper))
+d4 = (scan_default_rdrv * tper + (3 * tper))
+PINS SEG23_GPIO34
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (2 * tper))
+d3 = (scan_default_rdrv * tper + (1 * tper))
+d4 = (scan_default_rdrv * tper + (3 * tper))
+PINS SEG24_GPIO35
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (2 * tper))
+d3 = (scan_default_rdrv * tper + (1 * tper))
+d4 = (scan_default_rdrv * tper + (3 * tper))
+PINS SEG25_GPIO36
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (2 * tper))
+d3 = (scan_default_rdrv * tper + (1 * tper))
+d4 = (scan_default_rdrv * tper + (3 * tper))
+PINS SEG26_GPIO37
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (1 * tper))
+PINS SEG27_GPIO38
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (2 * tper))
+d3 = (scan_default_rdrv * tper + (1 * tper))
+d4 = (scan_default_rdrv * tper + (3 * tper))
+PINS SEG28_GPIO39
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (1 * tper))
+PINS SEG29_GPIO40
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (2 * tper))
+d3 = (scan_default_rdrv * tper + (1 * tper))
+d4 = (scan_default_rdrv * tper + (3 * tper))
+PINS SEG30_GPIO41
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (1 * tper))
+PINS SEG31_GPIO42
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (1 * tper))
+PINS SEG32_GPIO43
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (2 * tper))
+d3 = (scan_default_rdrv * tper + (1 * tper))
+d4 = (scan_default_rdrv * tper + (3 * tper))
+PINS SEG33_GPIO44
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (1 * tper))
+PINS SEG34_GPIO45
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (2 * tper))
+d3 = (scan_default_rdrv * tper + (1 * tper))
+d4 = (scan_default_rdrv * tper + (3 * tper))
+PINS SEG35_GPIO46
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (2 * tper))
+d3 = (scan_default_rdrv * tper + (1 * tper))
+d4 = (scan_default_rdrv * tper + (3 * tper))
+PINS SEG36_GPIO47
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (1 * tper))
+PINS SEG37_GPIO48
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (1 * tper))
+PINS SEG38_GPIO49
+d1 = (scan_default_rdrv * tper)
+PINS SEG39_GPIO50
+d1 = (scan_default_rdrv * tper)
+PINS SEG40_GPIO51
+d1 = (scan_default_rdrv * tper)
+PINS SEG41_GPIO52
+d1 = (scan_default_rdrv * tper)
+PINS SEG4_GPIO15
+d1 = (scan_default_rdrv * tper)
+PINS SEG5_GPIO16
+d1 = (scan_default_rdrv * tper)
+PINS SEG6_GPIO17
+d1 = (scan_default_rdrv * tper)
+r1 = (scan_default_rstr * tper)
+r2 = (scan_default_rstr * tper + (1 * tper))
+r3 = (scan_default_rstr * tper + (2 * tper))
+r4 = (scan_default_rstr * tper + (3 * tper))
+PINS SEG7_GPIO18
+d1 = (scan_default_rdrv * tper)
+r1 = (scan_default_rstr * tper)
+r2 = (scan_default_rstr * tper + (1 * tper))
+r3 = (scan_default_rstr * tper + (2 * tper))
+r4 = (scan_default_rstr * tper + (3 * tper))
+PINS SEG8_GPIO19
+d1 = (scan_default_rdrv * tper)
+r1 = (scan_default_rstr * tper)
+r2 = (scan_default_rstr * tper + (1 * tper))
+r3 = (scan_default_rstr * tper + (2 * tper))
+r4 = (scan_default_rstr * tper + (3 * tper))
+PINS SEG9_GPIO20
+d1 = (scan_default_rdrv * tper)
+r1 = (scan_default_rstr * tper)
+r2 = (scan_default_rstr * tper + (1 * tper))
+r3 = (scan_default_rstr * tper + (2 * tper))
+r4 = (scan_default_rstr * tper + (3 * tper))
+PINS SPI_CLK_UART2_TX
+d1 = (scan_default_rdrv * tper)
+PINS SPI_CSN_UART2_RX
+d1 = (scan_default_rdrv * tper)
+PINS SPI_DIN
+d1 = (scan_default_rdrv * tper)
+PINS SPI_DOUT
+d1 = (scan_default_rdrv * tper)
+PINS TAMPER1
+d1 = (scan_default_rdrv * tper)
+PINS TAMPER2
+d1 = (scan_default_rdrv * tper)
+PINS TCK_GPIO55
+d1 = (scan_clk_rdrv * tper)
+d2 = ((scan_clk_rdrv + scan_clk_dc) * tper)
+d3 = (scan_clk_rdrv * tper + (1 * tper))
+d4 = ((scan_clk_rdrv + scan_clk_dc) * tper + (1 * tper))
+d5 = (scan_clk_rdrv * tper + (2 * tper))
+d6 = ((scan_clk_rdrv + scan_clk_dc) * tper + (2 * tper))
+d7 = (scan_clk_rdrv * tper + (3 * tper))
+d8 = ((scan_clk_rdrv + scan_clk_dc) * tper + (3 * tper))
+PINS TDI_GPIO56
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (1 * tper))
+d3 = (scan_default_rdrv * tper + (3 * tper))
+d4 = (scan_default_rdrv * tper + (2 * tper))
+PINS TDO_GPIO53
+d1 = (scan_default_rdrv * tper)
+PINS TESTMODE
+d1 = (scan_default_rdrv * tper)
+PINS TEST_ANA
+d1 = (scan_default_rdrv * tper)
+PINS TMS_GPIO54
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (2 * tper))
+d3 = (scan_default_rdrv * tper + (1 * tper))
+d4 = (scan_default_rdrv * tper + (3 * tper))
+PINS TN
+d1 = (scan_default_rdrv * tper)
+PINS TP
+d1 = (scan_default_rdrv * tper)
+PINS TRIG_FE1
+d1 = (scan_default_rdrv * tper)
+r1 = (scan_default_rstr * tper)
+PINS TRIG_FE2
+d1 = (scan_default_rdrv * tper)
+r1 = (scan_default_rstr * tper)
+PINS TRIG_S1
+d1 = (scan_default_rdrv * tper)
+r1 = (scan_default_rstr * tper)
+PINS TRIG_S2
+d1 = (scan_default_rdrv * tper)
+r1 = (scan_default_rstr * tper)
+PINS TRIG_S3
+d1 = (scan_default_rdrv * tper)
+r1 = (scan_default_rstr * tper)
+PINS TRIG_S4
+d1 = (scan_default_rdrv * tper)
+r1 = (scan_default_rstr * tper)
+PINS TRST_GPIO57
+d1 = (scan_default_rdrv * tper)
+d2 = (scan_default_rdrv * tper + (2 * tper))
+d3 = (scan_default_rdrv * tper + (1 * tper))
+PINS UART0_RX_GPIO58
+d1 = (scan_default_rdrv * tper)
+PINS UART0_TX_GPIO59
+d1 = (scan_default_rdrv * tper)
+PINS UART1_RX
+d1 = (scan_default_rdrv * tper)
+PINS UART1_TX
+d1 = (scan_default_rdrv * tper)
+PINS V2P1
+d1 = (scan_default_rdrv * tper)
+PINS VBAT_SW
+d1 = (scan_default_rdrv * tper)
+PINS VBOOST1
+d1 = (scan_default_rdrv * tper)
+PINS VBOOST2
+d1 = (scan_default_rdrv * tper)
+PINS VDDA
+d1 = (scan_default_rdrv * tper)
+PINS VDIG1
+d1 = (scan_default_rdrv * tper)
+PINS VL1
+d1 = (scan_default_rdrv * tper)
+PINS VL2
+d1 = (scan_default_rdrv * tper)
+PINS VL3
+d1 = (scan_default_rdrv * tper)
+PINS VL4
+d1 = (scan_default_rdrv * tper)
+PINS VN1
+d1 = (scan_default_rdrv * tper)
+PINS VN2
+d1 = (scan_default_rdrv * tper)
+PINS VN3
+d1 = (scan_default_rdrv * tper)
+PINS VP1
+d1 = (scan_default_rdrv * tper)
+PINS VP2
+d1 = (scan_default_rdrv * tper)
+PINS VP3
+d1 = (scan_default_rdrv * tper)
+PINS VREFP
+d1 = (scan_default_rdrv * tper)
+PINS VREG_PA
+d1 = (scan_default_rdrv * tper)
+PINS VREG_PLL
+d1 = (scan_default_rdrv * tper)
+PINS VREG_RXTX
+d1 = (scan_default_rdrv * tper)
+PINS VSCAP
+d1 = (scan_default_rdrv * tper)
+PINS VSCAP1
+d1 = (scan_default_rdrv * tper)
+PINS VSCAP2
+d1 = (scan_default_rdrv * tper)
+PINS VSCAP3
+d1 = (scan_default_rdrv * tper)
+PINS VSCAP_ANA
+d1 = (scan_default_rdrv * tper)
+PINS VSCAP_CHG
+d1 = (scan_default_rdrv * tper)
+PINS XIN
+d1 = (scan_default_rdrv * tper)
+PINS XOUT
+d1 = (scan_default_rdrv * tper)
+PINS XTAL_I_RTC
+d1 = (scan_default_rdrv * tper)
+PINS XTAL_O_RTC
+d1 = (scan_default_rdrv * tper)
+@

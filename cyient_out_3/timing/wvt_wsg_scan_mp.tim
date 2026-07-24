@@ -1,0 +1,144 @@
+hp93000,timing,0.1
+EQSP TIM,WVT,#9000000540
+WAVETBL "WaveTable 1"
+DEFINES MAIN_PORT
+PINS GPIO66 IN2 SEG4_GPIO15 SEG38_GPIO49 GPIO64 TN I2C1_SDA_GPIO61 AIN1_GPIO4 AIN0_GPIO3 GPIO67 TDO_GPIO53 SEG5_GPIO16 IP3 SPI_DOUT I2C0_SCL_GPIO62 AIN3_GPIO6 UART0_RX_GPIO58 DVDD_LP VREFP ATST0_GPIO0 TP ATST1_GPIO1 IP2 IN3 IP1 TAMPER1 SPI_CLK_UART2_TX SPI_DIN SEG15_GPIO26_DTST0 VP2 SPI_CSN_UART2_RX SEG17_GPIO28_DTST2 VN3 AON2 RTCOUT_GPIO65 SEG10_GPIO21 SEG40_GPIO51 AONIRQ AIN2_GPIO5 UART1_RX SEG21_GPIO32_DTST6 VP3 SEG20_GPIO31_DTST5 SEG41_GPIO52 VN2 IN1 TAMPER2 AON3 I2C0_SDA_GPIO63 SEG14_GPIO25 VN1 I2C1_SCL_GPIO60 SEG39_GPIO50 VP1 ATST2_GPIO2 UART0_TX_GPIO59 AON1 SEG12_GPIO23 AON0
+0                                                      "d1:F0Z" Z...
+1                                                      "d1:F0Z" ZZZZ
+PINS COM0_GPIO7
+0                                                      "d1:F10" 1111
+1                                                      "d1:F00" 0000
+2                                                      "d1:F10" 1...
+3                                               "d1:F10 d2:F0Z" 1ZZZ
+4                                               "d1:F00 d2:F10" 0111
+5                                                      "d1:F0Z" ZZZZ
+PINS COM1_GPIO8
+0                                                      "d1:F10" 1111
+1                                               "d1:F00 d2:F10" 0011
+2                                                      "d1:F10" 1...
+3                                                      "d1:F00" 0000
+4                                                      "d1:F0Z" ZZZZ
+PINS COM2_GPIO9
+0            "d1:F10 d2:F0N d3:F10 d4:F0N d5:F10 d6:F0N d7:F00" PPP0
+1                                        "d1:F00 d7:F10 d8:F0N" 000P
+2                                                      "d1:F00" 0000
+3                                                      "d1:F00" 0...
+4                                               "d1:F00 d3:F0Z" 0ZZZ
+5                                                      "d1:F0Z" ZZZZ
+6     "d1:F10 d2:F0N d3:F10 d4:F0N d5:F10 d6:F0N d7:F10 d8:F0N" PPPP
+PINS COM4_SEG0_GPIO11 SEG31_GPIO42 SEG33_GPIO44 COM3_GPIO10 COM6_SEG2_GPIO13 COM5_SEG1_GPIO12 COM7_SEG3_GPIO14 SEG26_GPIO37 SEG28_GPIO39 SEG36_GPIO47 SEG37_GPIO48 SEG30_GPIO41
+0                                                      "d1:F00" 0000
+1                                               "d1:F00 d2:F0Z" 0ZZZ
+2                                                      "d1:F0Z" ZZZZ
+3                                                      "d1:F00" 0...
+PINS RESET_N
+0                                               "d1:F00 d2:F10" 0111
+1                                                      "d1:F10" 1111
+2                                                      "d1:F00" 0000
+3                                               "d1:F10 d2:F00" 1000
+4                                                      "d1:F10" 1...
+PINS SEG13_GPIO24 SEG8_GPIO19 SEG6_GPIO17 SEG7_GPIO18 SEG11_GPIO22
+0                                  "d1:F0Z r1:L r2:L r3:L r4:L" LLLL
+1                                  "d1:F0Z r1:L r2:H r3:H r4:H" LHHH
+2                                  "d1:F0Z r1:L r2:L r3:L r4:H" LLLH
+3                                                      "d1:F0Z" ZZZZ
+4                                  "d1:F0Z r1:H r2:L r3:L r4:L" HLLL
+5                                  "d1:F0Z r1:H r2:H r3:L r4:L" HHLL
+6                                  "d1:F0Z r1:H r2:H r3:H r4:L" HHHL
+7                                  "d1:F0Z r1:L r2:L r3:H r4:H" LLHH
+8                                                      "d1:F0Z" Z...
+PINS SEG18_GPIO29_DTST3 SEG16_GPIO27_DTST1
+0                                  "d1:F0Z r1:L r2:L r3:L r4:L" LLLL
+1                                  "d1:F0Z r1:L r2:L r3:L r4:H" LLLH
+2                                  "d1:F0Z r1:L r2:H r3:H r4:H" LHHH
+3                                                      "d1:F0Z" ZZZZ
+4                                  "d1:F0Z r1:H r2:H r3:H r4:L" HHHL
+5                                  "d1:F0Z r1:H r2:H r3:L r4:L" HHLL
+6                                  "d1:F0Z r1:H r2:L r3:L r4:L" HLLL
+7                                  "d1:F0Z r1:L r2:L r3:H r4:H" LLHH
+8                                                      "d1:F0Z" Z...
+PINS SEG19_GPIO30_DTST4
+0                                  "d1:F0Z r1:L r2:L r3:L r4:H" LLLH
+1                                  "d1:F0Z r1:L r2:H r3:H r4:H" LHHH
+2                                                      "d1:F0Z" ZZZZ
+3                                  "d1:F0Z r1:H r2:H r3:H r4:L" HHHL
+4                                  "d1:F0Z r1:H r2:H r3:L r4:L" HHLL
+5                                  "d1:F0Z r1:H r2:L r3:L r4:L" HLLL
+6                                  "d1:F0Z r1:L r2:L r3:H r4:H" LLHH
+7                                                      "d1:F0Z" Z...
+8                                  "d1:F0Z r1:H r2:H r3:H r4:H" HHHH
+PINS SEG24_GPIO35 SEG25_GPIO36 SEG29_GPIO40 SEG22_GPIO33_DTST7 SEG27_GPIO38 SEG23_GPIO34
+0                                                      "d1:F10" 1111
+1                                               "d1:F10 d2:F00" 1100
+2                                                      "d1:F00" 0...
+3                                               "d1:F10 d3:F00" 1000
+4                                               "d1:F10 d4:F00" 1110
+5                                                      "d1:F0Z" ZZZZ
+6                                               "d1:F0Z d4:F00" ZZZ0
+7                                               "d1:F00 d4:F10" 0001
+8                                               "d1:F00 d2:F10" 0011
+9                                                      "d1:F00" 0000
+a                                               "d1:F00 d3:F10" 0111
+PINS SEG34_GPIO45 SEG32_GPIO43 SEG35_GPIO46
+0                                               "d1:F10 d2:F00" 1100
+1                                                      "d1:F10" 1111
+2                                                      "d1:F00" 0...
+3                                               "d1:F10 d3:F00" 1000
+4                                               "d1:F10 d4:F00" 1110
+5                                                      "d1:F0Z" ZZZZ
+6                                               "d1:F0Z d4:F00" ZZZ0
+7                                                      "d1:F00" 0000
+8                                               "d1:F00 d2:F10" 0011
+9                                               "d1:F00 d4:F10" 0001
+a                                               "d1:F00 d3:F10" 0111
+PINS SEG9_GPIO20
+0                                  "d1:F0Z r1:L r2:H r3:H r4:H" LHHH
+1                                  "d1:F0Z r1:L r2:L r3:L r4:H" LLLH
+2                                                      "d1:F0Z" ZZZZ
+3                                  "d1:F0Z r1:H r2:L r3:L r4:L" HLLL
+4                                  "d1:F0Z r1:H r2:H r3:L r4:L" HHLL
+5                                  "d1:F0Z r1:H r2:H r3:H r4:L" HHHL
+6                                  "d1:F0Z r1:L r2:L r3:H r4:H" LLHH
+7                                                      "d1:F0Z" Z...
+8                                  "d1:F0Z r1:H r2:H r3:H r4:H" HHHH
+PINS TCK_GPIO55
+0            "d1:F10 d2:F0N d3:F10 d4:F0N d5:F10 d6:F0N d7:F00" PPP0
+1                                        "d1:F00 d7:F10 d8:F0N" 000P
+2                                                      "d1:F00" 0000
+3                                                      "d1:F00" 0...
+4     "d1:F10 d2:F0N d3:F10 d4:F0N d5:F10 d6:F0N d7:F10 d8:F0N" PPPP
+5            "d1:F00 d3:F10 d4:F0N d5:F10 d6:F0N d7:F10 d8:F0N" 0PPP
+PINS TDI_GPIO56
+0                                               "d1:F0Z d2:F00" Z000
+1                                        "d1:F10 d2:F00 d3:F10" 1001
+2                                                      "d1:F00" 0000
+3                                                      "d1:F00" 0...
+4                                        "d1:F00 d2:F10 d3:F00" 0110
+5                                               "d1:F00 d3:F10" 0001
+6                                        "d1:F00 d2:F10 d4:F00" 0100
+PINS TESTMODE
+0                                                      "d1:F10" 1111
+1                                                      "d1:F10" 1...
+PINS TMS_GPIO54
+0                                               "d1:F10 d2:F00" 1100
+1                                 "d1:F10 d3:F00 d2:F10 d4:F00" 1010
+2                                                      "d1:F00" 0...
+3                                               "d1:F10 d3:F00" 1000
+4                                                      "d1:F00" 0000
+5                                               "d1:F00 d4:F10" 0001
+6                                        "d1:F00 d3:F10 d4:F00" 0110
+7                                               "d1:F00 d2:F10" 0011
+8                                               "d1:F00 d3:F10" 0111
+PINS TRST_GPIO57
+0                                                      "d1:F10" 1111
+1                                               "d1:F00 d2:F10" 0011
+2                                                      "d1:F00" 0000
+3                                               "d1:F10 d3:F00" 1000
+4                                                      "d1:F10" 1...
+PINS CAPH BBST_SW XIN VL3 RBIAS TEST_ANA XTAL_O_RTC ATST2_GPIO2_1 ANT LNA_EN VSCAP3 PA_EN VREG_PLL RF_RX_P VL4 DVD RF_TX UART1_TX VREG_PA VBAT_SW RF_RX_N VBOOST1 VL1 VBOOST2 XOUT VSCAP_ANA VDDA DVD1 VSCAP2 VDIG1 CAPL VL2 ATST2_GPIO2_2 VSCAP_CHG DVD2 EXLVD PVDD LNA_HGM VSCAP XTAL_I_RTC V2P1 VREG_RXTX VSCAP1
+0                                                      "d1:F0Z" X...
+1                                                      "d1:F0Z" XXXX
+PINS MCE_Trigger_AWG_S2 MCE_Trigger_DIG MCE_Trigger_AWG
+0                                                      "d1:F00" 0000
+1                                                      "d1:F00" 0...
+@

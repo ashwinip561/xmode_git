@@ -1,0 +1,19 @@
+hp93000,timing,0.1
+EQSP TIM,SPS,#9000000368
+
+SPECIFICATION "scan_tim"
+{
+EQNSET 11 "Equation set 11"
+WAVETBL "WaveTable 1"
+CHECK 10period_drv 10period_rcv edgeorder_drv edgeorder_tri edgeorder_win
+PORT MAIN_PORT
+tper                 100        [ns]          #tper
+scan_clk_rdrv        0.6        [ns]          #scan_clk_rdrv
+scan_clk_dc          0.2        [ns]          #scan_clk_dc
+scan_clk_rstr        0.9        [ns]          #scan_clk_rstr
+scan_default_rdrv    0.4        [ns]          #scan_default_rdrv
+scan_default_rstr    0.45       [ns]          #scan_default_rstr
+}
+
+
+@

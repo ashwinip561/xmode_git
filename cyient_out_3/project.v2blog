@@ -1,0 +1,26 @@
+v2b   Version 5.4.47 28-Apr-2021     started at Fri Jul 24 16:35:30 2026
+
+v2b options are:
+ -z PS3600 -A -C -L -T -r 16 -k SM -T -J MAIN_PORT
+
+
+INPUT
+    ascii vector file:    "../ascii_sources/ARKA_R1_FULLSCAN_chain0_to_3.scan.ex1.ts1.avc"
+    timing mapping (ddc): "tmf_files/Pat_Trial_SCAN.tmf"
+    device cycle cfg file:"vbc_files/ARKA_R1_FULLSCAN_chain0_to_3_scan_ex1_ts1.vbc"
+
+several temporary OUTPUT files are in directory:
+	"./tmp/ARKA_R1_FULLSCAN_chain0_to_3_scan_ex1_ts1.pinvec/"
+
+temporary OUTPUT file:
+	"./tmp/ARKA_R1_FULLSCAN_chain0_to_3_scan_ex1_ts1.ddcrpt"
+..v2b WARNING in "../ascii_sources/ARKA_R1_FULLSCAN_chain0_to_3.scan.ex1.ts1.avc" on line 21156: W530: Vector data padded to next testercycle boundary
+ by adding device cycle "dvc_scan" with vector data "................................................................................................................................................"
+
+OUTPUT binary data (for Advantest 93000/SOC platform) in:
+	"vectors/single_binary_patterns/ARKA_R1_FULLSCAN_chain0_to_3_scan_ex1_ts1.binl.gz"
+....................................................................................................................................................
+
+   per pin translation rate :  39.025 kvecs/sec
+
+   ended at Fri Jul 24 16:35:56 2026
