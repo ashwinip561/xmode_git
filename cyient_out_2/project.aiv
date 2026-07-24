@@ -1,0 +1,16 @@
+AI_DIR_FILE
+tmp_dir                         ./tmp
+tmf_dir                         tmf_files
+vbc_dir                         vbc_files
+avc_dir                         ../ascii_sources
+pmf_path                        vectors/single_binary_patterns
+pmf_file                        vectors/patterns.pmf
+pinconfig_file                  ../Pins_new.conf
+single_binary_pattern_dir       vectors/single_binary_patterns
+
+AI_V2B_OPTIONS  -z PS3600 -A -C -L -T -r 16
+
+
+
+PATTERNS name               tmf_file      port   v2b_options    avc_file
+ARKA_R1_FULLSCAN_chain0_to_3_scan_ex1_ts1 Pat_Trial_SCAN.tmf                  MAIN_PORT                           {-k SM -T}                          ARKA_R1_FULLSCAN_chain0_to_3.scan.ex1.ts1.avc

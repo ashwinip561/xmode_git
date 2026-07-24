@@ -1,0 +1,6 @@
+hp93000,timing_master_file,0.1
+
+testerfile: Timing_org
+WAVETABLE wsg_scan_mp: wvt_wsg_scan_mp.tim
+EQNSET 11: eqnset_11.tim
+MULTIPORT_SPEC "scan_tim": mport_scan_tim.tim

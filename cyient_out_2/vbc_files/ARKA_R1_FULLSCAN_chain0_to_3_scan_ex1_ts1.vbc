@@ -1,0 +1,4 @@
+WAVETBL "wsg_scan_mp"
+SPECIFIED_DVCS_ONLY	
+MAPPING  vec_ascii_dvc  ascii_dvc hp_ts
+dvc_scan  dvc_scan    1

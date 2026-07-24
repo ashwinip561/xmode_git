@@ -1,0 +1,7 @@
+hp93000,pattern_master_file,0.1
+
+path:
+  vectors/single_binary_patterns
+
+files:
+  ARKA_R1_FULLSCAN_chain0_to_3_scan_ex1_ts1.binl.gz
